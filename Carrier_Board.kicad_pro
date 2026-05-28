@@ -750,6 +750,42 @@
     [
       "e768274e-12f3-4f83-96f6-abb7638e0bc1",
       "Carrier_Board"
+    ],
+    [
+      "9091bed5-f3cd-41d6-819e-8bd33fc47ed3",
+      "LattePanda Module"
+    ],
+    [
+      "a1e78f2f-f14b-4628-9612-5b4e596f5f9f",
+      "Power Supply"
+    ],
+    [
+      "db5534e0-ad9a-443b-b9b9-b696f6fb2c85",
+      "Fan"
+    ],
+    [
+      "f0c5bd9b-b5d7-485d-b3b5-c60eebcf14e3",
+      "GPIO"
+    ],
+    [
+      "d05d8b94-71f3-437a-a0af-11ed4e3069d0",
+      "PCIe x4"
+    ],
+    [
+      "3ad1df68-0a03-497a-a7ee-c67c9856d4e6",
+      "Gigabit Ethernet"
+    ],
+    [
+      "f6805346-90aa-47cf-a186-fe5806ffb5a5",
+      "USB 2.0 & 3.0"
+    ],
+    [
+      "1c6e1139-d819-4324-bacb-4e7c941be195",
+      "HDMI"
+    ],
+    [
+      "c9d591b5-2734-4735-842a-ee158b52d7b9",
+      "M.2 M Key"
     ]
   ],
   "text_variables": {},
