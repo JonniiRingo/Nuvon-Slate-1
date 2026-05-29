@@ -1351,43 +1351,43 @@
 			)
 		)
 		(pin "GPP_D0" bidirectional
-			(at 304.546 154.686 0)
+			(at 203.962 153.924 180)
 			(uuid "7a1d5053-4128-4f0c-8926-1deed48325e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPP_D1" bidirectional
-			(at 304.546 157.988 0)
+			(at 203.962 157.226 180)
 			(uuid "3b24e6b0-4ec6-4b2f-8c2b-c16da8b24b2e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPP_D2" bidirectional
-			(at 304.546 160.782 0)
+			(at 203.962 160.02 180)
 			(uuid "30273cee-fd8d-465a-90d1-2aa6e2f92221")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPP_D3" bidirectional
-			(at 304.546 163.322 0)
+			(at 203.962 162.56 180)
 			(uuid "f904fe7e-7238-4a74-8819-61a33e6f4479")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "HSIO_0_RX+" input
@@ -1421,7 +1421,7 @@
 			)
 		)
 		(pin "HSIO_0_TX-" output
-			(at 203.962 92.964 180)
+			(at 203.962 93.98 180)
 			(uuid "5d984f96-1ad7-4ead-a151-5ef019ce7e46")
 			(effects
 				(font
@@ -1801,83 +1801,83 @@
 			)
 		)
 		(pin "USB_2_P1+" bidirectional
-			(at 203.962 217.17 180)
+			(at 304.546 168.656 0)
 			(uuid "785fd892-fb8f-4189-b79e-66883c1bc1f4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_2_P1-" bidirectional
-			(at 203.962 220.218 180)
+			(at 304.546 171.704 0)
 			(uuid "5d201654-34ff-455e-b62c-2c1d73392c34")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_2_P2+" bidirectional
-			(at 203.962 224.536 180)
+			(at 304.546 176.022 0)
 			(uuid "59382b03-ceb0-4479-9208-6b112a2478da")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_2_P2-" bidirectional
-			(at 203.962 227.838 180)
+			(at 304.546 179.324 0)
 			(uuid "495ab804-be81-49d9-b4e9-e66469b802e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_2_P3+" bidirectional
-			(at 203.962 231.394 180)
+			(at 304.546 182.88 0)
 			(uuid "f1771022-11fb-4e28-8944-dbc55dc1d250")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_2_P3-" bidirectional
-			(at 203.962 234.696 180)
+			(at 304.546 186.182 0)
 			(uuid "c9c68a3b-3709-4ffa-b509-a9aa0db4b182")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_2_P5+" bidirectional
-			(at 203.962 237.998 180)
+			(at 304.546 189.484 0)
 			(uuid "c7a295aa-1dd6-458c-9e04-5514f96635f7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_2_P5-" bidirectional
-			(at 203.962 242.062 180)
+			(at 304.546 193.548 0)
 			(uuid "a56b1658-8f77-4e0e-afc2-1aa724bc7912")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "~{PEWAKE}" output
