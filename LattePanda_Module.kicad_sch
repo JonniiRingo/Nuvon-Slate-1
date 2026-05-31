@@ -7290,7 +7290,7 @@
 		)
 		(uuid "edf82e1e-5fab-4bb3-a398-a199d1840364")
 	)
-	(hierarchical_label "HSIO_3_TX+"
+	(hierarchical_label "HSIO_6_TX+"
 		(shape output)
 		(at 251.206 175.006 180)
 		(effects
@@ -7312,7 +7312,7 @@
 		)
 		(uuid "077a8037-028d-40db-b657-f57944889094")
 	)
-	(hierarchical_label "HSIO_3_RX-"
+	(hierarchical_label "HSIO_11_RX-"
 		(shape output)
 		(at 251.206 169.926 180)
 		(effects
@@ -7345,7 +7345,18 @@
 		)
 		(uuid "0a74342f-34f1-4c87-8224-5bb665657291")
 	)
-	(hierarchical_label "HSIO_1_TX+"
+	(hierarchical_label "USB_2_P7+"
+		(shape bidirectional)
+		(at 251.206 205.486 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bb65daa-2bc4-496f-b461-1eca15052696")
+	)
+	(hierarchical_label "HSIO_9_TX+"
 		(shape output)
 		(at 251.206 141.986 180)
 		(effects
@@ -7355,6 +7366,17 @@
 			(justify right)
 		)
 		(uuid "0d25288e-e199-480e-9962-ca4add937807")
+	)
+	(hierarchical_label "FAN_1_TAC"
+		(shape output)
+		(at 332.486 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0df4401d-64cd-4288-91b6-cb0a9d678268")
 	)
 	(hierarchical_label "USB_2_P2+"
 		(shape bidirectional)
@@ -7367,7 +7389,7 @@
 		)
 		(uuid "0e6c8739-ef02-44cc-a1bb-457eb2bddb6e")
 	)
-	(hierarchical_label "HSIO_0_RX+"
+	(hierarchical_label "HSIO_8_RX+"
 		(shape input)
 		(at 251.206 136.906 180)
 		(effects
@@ -7422,7 +7444,7 @@
 		)
 		(uuid "1a3de4f3-7f1e-48c1-8176-d2fbe2fa0d87")
 	)
-	(hierarchical_label "HSIO_2_TX+"
+	(hierarchical_label "HSIO_10_TX+"
 		(shape output)
 		(at 251.206 152.146 180)
 		(effects
@@ -7455,7 +7477,7 @@
 		)
 		(uuid "2543ffa0-6530-4ff5-93c3-78279060efd3")
 	)
-	(hierarchical_label "HSIO_1_TX-"
+	(hierarchical_label "HSIO_9_TX-"
 		(shape output)
 		(at 251.206 144.526 180)
 		(effects
@@ -7466,7 +7488,7 @@
 		)
 		(uuid "279d0ea4-4fa4-4399-821a-cf326d960f3e")
 	)
-	(hierarchical_label "HSIO_2_RX+"
+	(hierarchical_label "HSIO_10_RX+"
 		(shape input)
 		(at 251.206 157.226 180)
 		(effects
@@ -7499,7 +7521,7 @@
 		)
 		(uuid "2e8b9992-0b4f-421e-bfbe-9893224ccdaa")
 	)
-	(hierarchical_label "HSIO_3_RX+"
+	(hierarchical_label "HSIO_11_RX+"
 		(shape input)
 		(at 251.206 167.386 180)
 		(effects
@@ -7521,7 +7543,7 @@
 		)
 		(uuid "31f309e7-0561-4274-8fdc-ccf5ef91ad00")
 	)
-	(hierarchical_label "HSIO_3_TX-"
+	(hierarchical_label "HSIO_6_TX-"
 		(shape output)
 		(at 251.206 177.546 180)
 		(effects
@@ -7532,7 +7554,7 @@
 		)
 		(uuid "35d90d40-1044-4a09-b7a2-c325e7f2718f")
 	)
-	(hierarchical_label "HSIO_3_TX+"
+	(hierarchical_label "HSIO_11_TX+"
 		(shape output)
 		(at 251.206 162.306 180)
 		(effects
@@ -7565,7 +7587,7 @@
 		)
 		(uuid "3923d077-6095-44e3-a2de-5cdae15d31f8")
 	)
-	(hierarchical_label "HSIO_2_TX-"
+	(hierarchical_label "HSIO_10_TX-"
 		(shape output)
 		(at 251.206 154.686 180)
 		(effects
@@ -7609,7 +7631,7 @@
 		)
 		(uuid "49ea59fd-9340-4239-ab6f-01a8f73f15cb")
 	)
-	(hierarchical_label "DDI_B_TX1+"
+	(hierarchical_label "DDI_B_TX0+"
 		(shape output)
 		(at 251.206 248.666 180)
 		(effects
@@ -7664,7 +7686,7 @@
 		)
 		(uuid "5336d321-7067-42d2-9051-a002bce25be0")
 	)
-	(hierarchical_label "HSIO_1_RX+"
+	(hierarchical_label "HSIO_9_RX+"
 		(shape input)
 		(at 251.206 147.066 180)
 		(effects
@@ -7785,17 +7807,6 @@
 		)
 		(uuid "68c6b038-2d1d-4cf3-9c3b-c95ebb2cbdce")
 	)
-	(hierarchical_label "~{PLT_RST}"
-		(shape input)
-		(at 332.486 75.946 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a58385a-fc98-45f0-a82d-5dcea9c4c6b7")
-	)
 	(hierarchical_label "DDI_B_TX3-"
 		(shape input)
 		(at 251.206 235.966 180)
@@ -7884,7 +7895,7 @@
 		)
 		(uuid "8d27249d-16f1-4bcc-a0f2-7460fb31ea5d")
 	)
-	(hierarchical_label "HSIO_3_RX+"
+	(hierarchical_label "HSIO_6_RX+"
 		(shape input)
 		(at 251.206 180.086 180)
 		(effects
@@ -7895,7 +7906,7 @@
 		)
 		(uuid "92c2f3f1-2bba-4d7c-82af-11112ec114fa")
 	)
-	(hierarchical_label "HSIO_1_RX-"
+	(hierarchical_label "HSIO_9_RX-"
 		(shape output)
 		(at 251.206 149.606 180)
 		(effects
@@ -7983,6 +7994,17 @@
 		)
 		(uuid "adeae665-633c-41af-8173-e7c99e288e13")
 	)
+	(hierarchical_label "USB_2_P7-"
+		(shape bidirectional)
+		(at 251.206 208.026 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5b5f359-ea8b-42eb-beb8-7a742060e22c")
+	)
 	(hierarchical_label "HSIO_8_TX-"
 		(shape output)
 		(at 251.206 134.366 180)
@@ -7994,7 +8016,7 @@
 		)
 		(uuid "b8f62caa-9c1e-4c8f-8b29-8da700de5ec3")
 	)
-	(hierarchical_label "HSIO_3_RX-"
+	(hierarchical_label "HSIO_6_RX-"
 		(shape output)
 		(at 251.206 182.626 180)
 		(effects
@@ -8005,7 +8027,7 @@
 		)
 		(uuid "ba9245fe-bebf-4835-85b6-51baa124b970")
 	)
-	(hierarchical_label "HSIO_2_RX-"
+	(hierarchical_label "HSIO_10_RX-"
 		(shape output)
 		(at 251.206 159.766 180)
 		(effects
@@ -8038,7 +8060,7 @@
 		)
 		(uuid "bfc7b5ab-524f-4ad6-ab0f-67cad74f1da7")
 	)
-	(hierarchical_label "DDI_B_TX1-"
+	(hierarchical_label "DDI_B_TX0-"
 		(shape input)
 		(at 251.206 251.206 180)
 		(effects
@@ -8060,7 +8082,7 @@
 		)
 		(uuid "c35547e2-16ff-403e-874b-61a3ac3b93e2")
 	)
-	(hierarchical_label "HSIO_3_TX-"
+	(hierarchical_label "HSIO_11_TX-"
 		(shape output)
 		(at 251.206 164.846 180)
 		(effects
@@ -8093,7 +8115,7 @@
 		)
 		(uuid "d6b6cc1a-b53c-4f0e-980f-2c8dd1a4fec3")
 	)
-	(hierarchical_label "HSIO_0_RX-"
+	(hierarchical_label "HSIO_8_RX-"
 		(shape output)
 		(at 251.206 139.446 180)
 		(effects
