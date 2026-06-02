@@ -743,7 +743,7 @@
         "uuid": "e768274e-12f3-4f83-96f6-abb7638e0bc1"
       }
     ],
-    "used_designators": "TP4,TP78-79,D16-20,D78,#FLG80-81,#PWR98-99",
+    "used_designators": "R53,R80-87,U78,TP4,TP78-79,Q78-79,C78-79,#PWR98-101,D16-20,D78-79,#FLG80-81",
     "variants": []
   },
   "sheets": [
