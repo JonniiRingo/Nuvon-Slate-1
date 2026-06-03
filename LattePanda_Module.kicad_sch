@@ -9899,7 +9899,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 369.824 266.446 270)
+		(at 369.824 266.446 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9910,7 +9910,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ba83381-ed44-4e9f-9ba5-b9c30f484cb1")
 		(property "Reference" "#PWR083"
-			(at 366.014 266.446 0)
+			(at 369.824 270.256 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9921,7 +9921,7 @@
 			)
 		)
 		(property "Value" "VPullup"
-			(at 373.126 266.4459 90)
+			(at 372.11 265.1759 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
