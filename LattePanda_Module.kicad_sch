@@ -6601,28 +6601,28 @@
 		)
 	)
 	(junction
-		(at 294.64 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89b66027-0c13-43c8-be6d-c53578161585")
-	)
-	(junction
-		(at 292.1 335.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91a68dab-d76d-48bf-ab0f-def0ff11da78")
-	)
-	(junction
 		(at 299.72 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8b18769-7811-45c3-89d2-02a815fddf66")
 	)
 	(junction
+		(at 294.64 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4f03b75-c8fa-4855-a602-918563966538")
+	)
+	(junction
 		(at 340.36 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cc65d947-3d2d-4d48-8dcc-4f84ee4950d6")
+		(uuid "ee41514d-d530-42da-a9e5-0f6064c30852")
+	)
+	(junction
+		(at 292.1 335.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8f3a269-7370-4e4e-a807-65bf41d3d3e2")
 	)
 	(no_connect
 		(at 332.74 149.86)
@@ -6972,16 +6972,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 193.04) (xy 332.486 192.786)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01e0f4c1-43db-4084-9f54-d15144e70bda")
-	)
-	(wire
-		(pts
 			(xy 299.72 55.88) (xy 302.26 55.88)
 		)
 		(stroke
@@ -6992,46 +6982,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 115.57) (xy 332.486 115.316)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a676264-2ea8-4165-a49f-92d0f057d2d1")
-	)
-	(wire
-		(pts
-			(xy 332.74 107.95) (xy 332.486 107.696)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c9f04ed-d0a4-42f7-a9f2-42298015b8e8")
-	)
-	(wire
-		(pts
-			(xy 332.74 110.49) (xy 332.486 110.236)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d494aee-fb39-4799-b063-38e560c15c0c")
-	)
-	(wire
-		(pts
-			(xy 332.74 182.88) (xy 332.486 182.626)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1035480e-8c65-4234-b2ef-1fa2f4941517")
-	)
-	(wire
-		(pts
 			(xy 360.68 266.7) (xy 369.57 266.7)
 		)
 		(stroke
@@ -7039,26 +6989,6 @@
 			(type default)
 		)
 		(uuid "12bb8369-4474-40b6-9755-ce6bc035c52c")
-	)
-	(wire
-		(pts
-			(xy 332.74 102.87) (xy 332.486 102.616)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1987c2b1-5e09-40aa-937b-2b90a2832662")
-	)
-	(wire
-		(pts
-			(xy 332.74 95.25) (xy 332.486 94.996)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19eb6cca-5d70-44c9-be71-85875246b6d1")
 	)
 	(wire
 		(pts
@@ -7082,16 +7012,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 127) (xy 332.486 126.746)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "211f1843-ae13-4a40-b601-b2f23e1cf33d")
-	)
-	(wire
-		(pts
 			(xy 182.88 81.28) (xy 182.88 71.12)
 		)
 		(stroke
@@ -7112,13 +7032,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 175.26) (xy 332.486 175.006)
+			(xy 292.1 335.28) (xy 292.1 337.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "393f9b31-5fe5-489c-a345-abcb033057cb")
+		(uuid "34ae88e9-8373-44a8-a8b0-7fb68b7aa90a")
 	)
 	(wire
 		(pts
@@ -7129,66 +7049,6 @@
 			(type default)
 		)
 		(uuid "3af186ce-5d82-4e78-a6cd-5fd071b6612e")
-	)
-	(wire
-		(pts
-			(xy 332.74 76.2) (xy 332.486 75.946)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ecb1103-ee1b-49e3-afa2-9d4c04556cfb")
-	)
-	(wire
-		(pts
-			(xy 332.74 241.3) (xy 332.486 241.046)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "467385c4-be14-4e84-8f27-1a0e4b462b8a")
-	)
-	(wire
-		(pts
-			(xy 332.74 187.96) (xy 332.486 187.706)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50f669ad-c39a-49ad-8729-37a6be823cab")
-	)
-	(wire
-		(pts
-			(xy 332.74 198.12) (xy 332.486 197.866)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e978f3f-6621-4ace-a6f4-f6dd48197386")
-	)
-	(wire
-		(pts
-			(xy 332.74 226.06) (xy 332.486 225.806)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "615749c9-5aa6-4ce2-a1fb-567cb4cfe0aa")
-	)
-	(wire
-		(pts
-			(xy 332.74 92.71) (xy 332.486 92.456)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b4b9d4-4c43-481d-91c0-5ee5a6dcd806")
 	)
 	(wire
 		(pts
@@ -7208,7 +7068,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "694991a6-1caf-4bdd-951d-2e8f1ee78973")
+		(uuid "650902fc-dae0-41d0-a420-83d47ae50ce3")
 	)
 	(wire
 		(pts
@@ -7232,13 +7092,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 190.5) (xy 332.486 190.246)
+			(xy 294.64 55.88) (xy 299.72 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f93df8d-4de4-49b4-b705-89e6f23381db")
+		(uuid "71b0d0e7-8da1-4738-820d-7e0be5c927a9")
 	)
 	(wire
 		(pts
@@ -7252,16 +7112,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 243.84) (xy 332.486 243.586)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "748cd42c-36b1-4dd9-96cc-b89e288839da")
-	)
-	(wire
-		(pts
 			(xy 364.49 125.476) (xy 364.49 121.92)
 		)
 		(stroke
@@ -7272,13 +7122,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 129.54) (xy 332.486 129.286)
+			(xy 241.3 294.64) (xy 251.46 294.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77bd7804-f3fc-4648-8c0f-308c0e661e5c")
+		(uuid "7b4a557f-4c24-48a4-b9bc-b1ce7b8b5208")
 	)
 	(wire
 		(pts
@@ -7312,36 +7162,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 177.8) (xy 332.486 177.546)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87f50893-2a7d-4954-a68e-11a9d6131b58")
-	)
-	(wire
-		(pts
-			(xy 332.74 105.41) (xy 332.486 105.156)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e0b5e1d-1872-47c4-b5c8-927801b12eed")
-	)
-	(wire
-		(pts
-			(xy 332.74 88.9) (xy 332.486 88.646)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9271a706-6c9c-484c-9d49-0edc7018b53d")
-	)
-	(wire
-		(pts
 			(xy 228.6 256.54) (xy 228.6 262.89)
 		)
 		(stroke
@@ -7352,36 +7172,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 238.76) (xy 332.486 238.506)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ebd3cf3-1daf-432a-a471-d5867ed32ad2")
-	)
-	(wire
-		(pts
-			(xy 332.74 200.66) (xy 332.486 200.406)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a12e9597-4a73-493e-ac37-d1542eb108aa")
-	)
-	(wire
-		(pts
-			(xy 332.74 180.34) (xy 332.486 180.086)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1a7ec49-b010-46a9-9d4d-e9accaba13dd")
-	)
-	(wire
-		(pts
 			(xy 321.31 55.88) (xy 328.93 55.88)
 		)
 		(stroke
@@ -7389,16 +7179,6 @@
 			(type default)
 		)
 		(uuid "a93b9825-df77-4b12-ab52-2583c462c3aa")
-	)
-	(wire
-		(pts
-			(xy 332.74 86.36) (xy 332.486 86.106)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba7baae-b403-4858-b31b-336fd7a42ef5")
 	)
 	(wire
 		(pts
@@ -7419,26 +7199,6 @@
 			(type default)
 		)
 		(uuid "b1867d9e-45f5-483d-b15b-78042be5acef")
-	)
-	(wire
-		(pts
-			(xy 332.74 157.48) (xy 332.486 157.226)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a863cb-e9df-4c3a-9665-dd80f810581b")
-	)
-	(wire
-		(pts
-			(xy 332.74 236.22) (xy 332.486 235.966)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5346fa6-f8ff-47f1-9a32-7492fc033f87")
 	)
 	(wire
 		(pts
@@ -7492,76 +7252,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 231.14) (xy 332.486 230.886)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd09cd00-57df-418c-bad3-76140268b975")
-	)
-	(wire
-		(pts
-			(xy 241.3 294.64) (xy 251.46 294.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a0c70d-829f-4464-8405-6df451c1dcfd")
-	)
-	(wire
-		(pts
-			(xy 332.74 113.03) (xy 332.486 112.776)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc3fe25e-86e6-4b2d-8deb-2a5651228727")
-	)
-	(wire
-		(pts
-			(xy 294.64 55.88) (xy 299.72 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0b4d38d-0e0a-4e53-9763-a7cfe7b9b7b7")
-	)
-	(wire
-		(pts
-			(xy 332.74 195.58) (xy 332.486 195.326)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2625e81-60d8-478d-97b3-ad9ad36947b3")
-	)
-	(wire
-		(pts
-			(xy 332.74 228.6) (xy 332.486 228.346)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e55998c9-183f-4a8a-ad61-ec8e7a7a5013")
-	)
-	(wire
-		(pts
-			(xy 292.1 335.28) (xy 292.1 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb0b04b5-e56d-4c2f-8a2e-bf2a0b2855b3")
-	)
-	(wire
-		(pts
 			(xy 177.8 71.12) (xy 177.8 86.36)
 		)
 		(stroke
@@ -7569,16 +7259,6 @@
 			(type default)
 		)
 		(uuid "edb3b8c6-1a4f-415a-9664-42929285c03c")
-	)
-	(wire
-		(pts
-			(xy 332.74 233.68) (xy 332.486 233.426)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec632b4-96f2-4792-a600-3599b810d86b")
 	)
 	(wire
 		(pts
@@ -7590,19 +7270,9 @@
 		)
 		(uuid "f0c4e445-8715-4896-9df7-58df466d7b7e")
 	)
-	(wire
-		(pts
-			(xy 332.74 73.66) (xy 332.486 73.406)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8080090-d275-4f4b-b50d-a7973fbec0cc")
-	)
 	(hierarchical_label "HSIO_6_TX+"
 		(shape output)
-		(at 250.19 175.26 180)
+		(at 251.46 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7613,7 +7283,7 @@
 	)
 	(hierarchical_label "HSIO_2_RX+"
 		(shape input)
-		(at 250.19 114.3 180)
+		(at 251.46 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7624,7 +7294,7 @@
 	)
 	(hierarchical_label "HSIO_11_RX-"
 		(shape output)
-		(at 250.19 170.18 180)
+		(at 251.46 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7635,7 +7305,7 @@
 	)
 	(hierarchical_label "REFCLK3+"
 		(shape bidirectional)
-		(at 332.486 107.696 0)
+		(at 332.74 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7646,7 +7316,7 @@
 	)
 	(hierarchical_label "HSIO_8_TX+"
 		(shape output)
-		(at 250.19 132.08 180)
+		(at 251.46 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7657,7 +7327,7 @@
 	)
 	(hierarchical_label "USB_2_P7+"
 		(shape bidirectional)
-		(at 250.19 205.74 180)
+		(at 251.46 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7668,7 +7338,7 @@
 	)
 	(hierarchical_label "HSIO_9_TX+"
 		(shape output)
-		(at 250.19 142.24 180)
+		(at 251.46 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7679,7 +7349,7 @@
 	)
 	(hierarchical_label "FAN_1_TAC"
 		(shape output)
-		(at 332.486 75.946 0)
+		(at 332.74 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7690,7 +7360,7 @@
 	)
 	(hierarchical_label "USB_2_P2+"
 		(shape bidirectional)
-		(at 250.19 190.5 180)
+		(at 251.46 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7701,7 +7371,7 @@
 	)
 	(hierarchical_label "HSIO_8_RX+"
 		(shape input)
-		(at 250.19 137.16 180)
+		(at 251.46 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7712,7 +7382,7 @@
 	)
 	(hierarchical_label "GPP_D2"
 		(shape bidirectional)
-		(at 332.486 180.086 0)
+		(at 332.74 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7723,7 +7393,7 @@
 	)
 	(hierarchical_label "I2C2_SDA"
 		(shape bidirectional)
-		(at 332.486 225.806 0)
+		(at 332.74 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7734,7 +7404,7 @@
 	)
 	(hierarchical_label "HSIO_3_RX+"
 		(shape input)
-		(at 250.19 124.46 180)
+		(at 251.46 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7745,7 +7415,7 @@
 	)
 	(hierarchical_label "SOC_UART1_TX"
 		(shape output)
-		(at 332.486 195.326 0)
+		(at 332.74 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7756,7 +7426,7 @@
 	)
 	(hierarchical_label "HSIO_10_TX+"
 		(shape output)
-		(at 250.19 152.4 180)
+		(at 251.46 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7776,6 +7446,17 @@
 		)
 		(uuid "23c581fd-fa4f-463c-8d6e-e03478e7d58c")
 	)
+	(hierarchical_label "~{RST_SWD}"
+		(shape input)
+		(at 251.46 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24deaa1c-0e1d-4a40-a60d-5dd8340556ba")
+	)
 	(hierarchical_label "~{PWR_LED}{slash}~{PSON}"
 		(shape input)
 		(at 251.46 76.2 180)
@@ -7789,7 +7470,7 @@
 	)
 	(hierarchical_label "HSIO_9_TX-"
 		(shape output)
-		(at 250.19 144.78 180)
+		(at 251.46 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7800,7 +7481,7 @@
 	)
 	(hierarchical_label "HSIO_10_RX+"
 		(shape input)
-		(at 250.19 157.48 180)
+		(at 251.46 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7811,7 +7492,7 @@
 	)
 	(hierarchical_label "HSIO_3_TX-"
 		(shape output)
-		(at 250.19 121.92 180)
+		(at 251.46 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7822,7 +7503,7 @@
 	)
 	(hierarchical_label "HSIO_2_RX-"
 		(shape output)
-		(at 250.19 116.84 180)
+		(at 251.46 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7833,7 +7514,7 @@
 	)
 	(hierarchical_label "HSIO_11_RX+"
 		(shape input)
-		(at 250.19 167.64 180)
+		(at 251.46 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7844,7 +7525,7 @@
 	)
 	(hierarchical_label "I2C5_SDA"
 		(shape bidirectional)
-		(at 332.486 241.046 0)
+		(at 332.74 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7855,7 +7536,7 @@
 	)
 	(hierarchical_label "HSIO_6_TX-"
 		(shape output)
-		(at 250.19 177.8 180)
+		(at 251.46 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7866,7 +7547,7 @@
 	)
 	(hierarchical_label "HSIO_11_TX+"
 		(shape output)
-		(at 250.19 162.56 180)
+		(at 251.46 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7877,7 +7558,7 @@
 	)
 	(hierarchical_label "HSIO_1_TX-"
 		(shape output)
-		(at 250.19 101.6 180)
+		(at 251.46 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7888,7 +7569,7 @@
 	)
 	(hierarchical_label "REFCLK0+"
 		(shape bidirectional)
-		(at 332.486 92.456 0)
+		(at 332.74 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7899,7 +7580,7 @@
 	)
 	(hierarchical_label "HSIO_10_TX-"
 		(shape output)
-		(at 250.19 154.94 180)
+		(at 251.46 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7910,7 +7591,7 @@
 	)
 	(hierarchical_label "HSIO_1_RX+"
 		(shape input)
-		(at 250.19 104.14 180)
+		(at 251.46 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7921,7 +7602,7 @@
 	)
 	(hierarchical_label "HSIO_0_RX-"
 		(shape output)
-		(at 250.19 96.52 180)
+		(at 251.46 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7932,7 +7613,7 @@
 	)
 	(hierarchical_label "I2C3_SCL"
 		(shape output)
-		(at 332.486 233.426 0)
+		(at 332.74 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7943,7 +7624,7 @@
 	)
 	(hierarchical_label "DDI_B_TX0+"
 		(shape output)
-		(at 250.19 248.92 180)
+		(at 251.46 248.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7954,7 +7635,7 @@
 	)
 	(hierarchical_label "DDI_B_TX1-"
 		(shape input)
-		(at 250.19 246.38 180)
+		(at 251.46 246.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7965,7 +7646,7 @@
 	)
 	(hierarchical_label "REFCLK0-"
 		(shape bidirectional)
-		(at 332.486 94.996 0)
+		(at 332.74 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7976,7 +7657,7 @@
 	)
 	(hierarchical_label "REFCLK3-"
 		(shape bidirectional)
-		(at 332.486 110.236 0)
+		(at 332.74 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7987,7 +7668,7 @@
 	)
 	(hierarchical_label "GPP_D1"
 		(shape bidirectional)
-		(at 332.486 177.546 0)
+		(at 332.74 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7998,7 +7679,7 @@
 	)
 	(hierarchical_label "HSIO_9_RX+"
 		(shape input)
-		(at 250.19 147.32 180)
+		(at 251.46 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8009,7 +7690,7 @@
 	)
 	(hierarchical_label "SOC_UART0_RX"
 		(shape output)
-		(at 332.486 187.706 0)
+		(at 332.74 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8020,7 +7701,7 @@
 	)
 	(hierarchical_label "I2C5_SCL"
 		(shape output)
-		(at 332.486 243.586 0)
+		(at 332.74 243.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8031,7 +7712,7 @@
 	)
 	(hierarchical_label "DDI_B_DDC_SDA"
 		(shape bidirectional)
-		(at 250.19 222.25 180)
+		(at 251.46 222.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8042,7 +7723,7 @@
 	)
 	(hierarchical_label "GPP_D3"
 		(shape bidirectional)
-		(at 332.486 182.626 0)
+		(at 332.74 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8053,7 +7734,7 @@
 	)
 	(hierarchical_label "REFCLK4+"
 		(shape bidirectional)
-		(at 332.486 112.776 0)
+		(at 332.74 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8064,7 +7745,7 @@
 	)
 	(hierarchical_label "DDI_B_TX2+"
 		(shape output)
-		(at 250.19 238.76 180)
+		(at 251.46 238.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8075,7 +7756,7 @@
 	)
 	(hierarchical_label "USB_2_P5-"
 		(shape bidirectional)
-		(at 332.486 129.286 0)
+		(at 332.74 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8086,7 +7767,7 @@
 	)
 	(hierarchical_label "SOC_UART2_TX"
 		(shape output)
-		(at 332.486 200.406 0)
+		(at 332.74 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8108,7 +7789,7 @@
 	)
 	(hierarchical_label "DDI_B_TX3-"
 		(shape input)
-		(at 250.19 236.22 180)
+		(at 251.46 236.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8119,7 +7800,7 @@
 	)
 	(hierarchical_label "HSIO_1_RX-"
 		(shape output)
-		(at 250.19 106.68 180)
+		(at 251.46 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8130,7 +7811,7 @@
 	)
 	(hierarchical_label "GPP_D0"
 		(shape bidirectional)
-		(at 332.486 175.006 0)
+		(at 332.74 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8139,7 +7820,7 @@
 		)
 		(uuid "7bd9c8b3-052c-4fe1-a9f1-8b124237833a")
 	)
-	(hierarchical_label "~{RST_SWD}"
+	(hierarchical_label "~{PWR_SWD}"
 		(shape input)
 		(at 251.46 73.66 180)
 		(effects
@@ -8152,7 +7833,7 @@
 	)
 	(hierarchical_label "HSIO_3_RX-"
 		(shape output)
-		(at 250.19 127 180)
+		(at 251.46 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8163,7 +7844,7 @@
 	)
 	(hierarchical_label "SUSCLK_WIFI"
 		(shape input)
-		(at 332.486 157.226 0)
+		(at 332.74 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8174,7 +7855,7 @@
 	)
 	(hierarchical_label "HSIO_2_TX-"
 		(shape output)
-		(at 250.19 111.76 180)
+		(at 251.46 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8185,7 +7866,7 @@
 	)
 	(hierarchical_label "DDI_B_TX2-"
 		(shape input)
-		(at 250.19 241.3 180)
+		(at 251.46 241.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8196,7 +7877,7 @@
 	)
 	(hierarchical_label "HSIO_6_RX+"
 		(shape input)
-		(at 250.19 180.34 180)
+		(at 251.46 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8207,7 +7888,7 @@
 	)
 	(hierarchical_label "HSIO_9_RX-"
 		(shape output)
-		(at 250.19 149.86 180)
+		(at 251.46 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8218,7 +7899,7 @@
 	)
 	(hierarchical_label "I2C4_SDA"
 		(shape bidirectional)
-		(at 332.486 235.966 0)
+		(at 332.74 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8229,7 +7910,7 @@
 	)
 	(hierarchical_label "DDI_B_DDC_SDL"
 		(shape output)
-		(at 250.19 224.79 180)
+		(at 251.46 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8240,7 +7921,7 @@
 	)
 	(hierarchical_label "SOC_UART0_TX"
 		(shape output)
-		(at 332.486 190.246 0)
+		(at 332.74 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8251,7 +7932,7 @@
 	)
 	(hierarchical_label "DDI_B_TX3+"
 		(shape output)
-		(at 250.19 233.68 180)
+		(at 251.46 233.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8262,7 +7943,7 @@
 	)
 	(hierarchical_label "I2C4_SCL"
 		(shape output)
-		(at 332.486 238.506 0)
+		(at 332.74 238.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8273,7 +7954,7 @@
 	)
 	(hierarchical_label "SOC_UART2_RX"
 		(shape output)
-		(at 332.486 197.866 0)
+		(at 332.74 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8284,7 +7965,7 @@
 	)
 	(hierarchical_label "SOC_UART1_RX"
 		(shape output)
-		(at 332.486 192.786 0)
+		(at 332.74 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8295,7 +7976,7 @@
 	)
 	(hierarchical_label "USB_2_P7-"
 		(shape bidirectional)
-		(at 250.19 208.28 180)
+		(at 251.46 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8306,7 +7987,7 @@
 	)
 	(hierarchical_label "HSIO_8_TX-"
 		(shape output)
-		(at 250.19 134.62 180)
+		(at 251.46 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8317,7 +7998,7 @@
 	)
 	(hierarchical_label "HSIO_6_RX-"
 		(shape output)
-		(at 250.19 182.88 180)
+		(at 251.46 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8328,7 +8009,7 @@
 	)
 	(hierarchical_label "HSIO_10_RX-"
 		(shape output)
-		(at 250.19 160.02 180)
+		(at 251.46 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8339,7 +8020,7 @@
 	)
 	(hierarchical_label "USB_2_P5+"
 		(shape bidirectional)
-		(at 332.486 126.746 0)
+		(at 332.74 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8361,7 +8042,7 @@
 	)
 	(hierarchical_label "DDI_B_TX0-"
 		(shape input)
-		(at 250.19 251.46 180)
+		(at 251.46 251.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8372,7 +8053,7 @@
 	)
 	(hierarchical_label "REFCLK4-"
 		(shape bidirectional)
-		(at 332.486 115.316 0)
+		(at 332.74 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8383,7 +8064,7 @@
 	)
 	(hierarchical_label "HSIO_11_TX-"
 		(shape output)
-		(at 250.19 165.1 180)
+		(at 251.46 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8394,7 +8075,7 @@
 	)
 	(hierarchical_label "USB_2_P1-"
 		(shape bidirectional)
-		(at 250.19 187.96 180)
+		(at 251.46 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8405,7 +8086,7 @@
 	)
 	(hierarchical_label "FAN_1_PWM"
 		(shape output)
-		(at 332.486 73.406 0)
+		(at 332.74 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8416,7 +8097,7 @@
 	)
 	(hierarchical_label "HSIO_8_RX-"
 		(shape output)
-		(at 250.19 139.7 180)
+		(at 251.46 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8427,7 +8108,7 @@
 	)
 	(hierarchical_label "USB_2_P3+"
 		(shape bidirectional)
-		(at 250.19 195.58 180)
+		(at 251.46 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8438,7 +8119,7 @@
 	)
 	(hierarchical_label "REFCLK2+"
 		(shape bidirectional)
-		(at 332.486 102.616 0)
+		(at 332.74 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8449,7 +8130,7 @@
 	)
 	(hierarchical_label "USB_2_P3-"
 		(shape bidirectional)
-		(at 250.19 198.12 180)
+		(at 251.46 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8460,7 +8141,7 @@
 	)
 	(hierarchical_label "HSIO_2_TX+"
 		(shape output)
-		(at 250.19 109.22 180)
+		(at 251.46 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8471,7 +8152,7 @@
 	)
 	(hierarchical_label "DDI_B_TX1+"
 		(shape output)
-		(at 250.19 243.84 180)
+		(at 251.46 243.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8482,7 +8163,7 @@
 	)
 	(hierarchical_label "USB_2_P1+"
 		(shape bidirectional)
-		(at 250.19 185.42 180)
+		(at 251.46 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8493,7 +8174,7 @@
 	)
 	(hierarchical_label "REFCLK2-"
 		(shape bidirectional)
-		(at 332.486 105.156 0)
+		(at 332.74 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8515,7 +8196,7 @@
 	)
 	(hierarchical_label "I2C2_SCL"
 		(shape output)
-		(at 332.486 228.346 0)
+		(at 332.74 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8526,7 +8207,7 @@
 	)
 	(hierarchical_label "DDI_B_HPD"
 		(shape input)
-		(at 250.19 218.44 180)
+		(at 251.46 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8537,7 +8218,7 @@
 	)
 	(hierarchical_label "~{PEWAKE}"
 		(shape output)
-		(at 332.486 86.106 0)
+		(at 332.74 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8548,7 +8229,7 @@
 	)
 	(hierarchical_label "USB_2_P2-"
 		(shape bidirectional)
-		(at 250.19 193.04 180)
+		(at 251.46 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8559,7 +8240,7 @@
 	)
 	(hierarchical_label "~{PLT_RST}"
 		(shape input)
-		(at 332.486 88.646 0)
+		(at 332.74 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8570,7 +8251,7 @@
 	)
 	(hierarchical_label "I2C3_SDA"
 		(shape bidirectional)
-		(at 332.486 230.886 0)
+		(at 332.74 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8581,7 +8262,7 @@
 	)
 	(hierarchical_label "HSIO_1_TX+"
 		(shape output)
-		(at 250.19 99.06 180)
+		(at 251.46 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8592,7 +8273,7 @@
 	)
 	(hierarchical_label "HSIO_3_TX+"
 		(shape output)
-		(at 250.19 119.38 180)
+		(at 251.46 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)

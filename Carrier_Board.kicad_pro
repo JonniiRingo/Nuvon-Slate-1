@@ -743,7 +743,7 @@
         "uuid": "e768274e-12f3-4f83-96f6-abb7638e0bc1"
       }
     ],
-    "used_designators": "TP9,#PWR97,#PWR121",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -757,7 +757,7 @@
     ],
     [
       "a1e78f2f-f14b-4628-9612-5b4e596f5f9f",
-      "Power Supply"
+      "PSU"
     ],
     [
       "db5534e0-ad9a-443b-b9b9-b696f6fb2c85",
