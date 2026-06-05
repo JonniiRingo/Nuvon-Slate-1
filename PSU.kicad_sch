@@ -13366,7 +13366,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ESSOP10"
+		(property "Footprint" "A_HDJ_Library:ESSOP-10-1EP_3.9x5mm_P1.0mm_EP3.2x2.3"
 			(at 189.23 262.89 0)
 			(hide yes)
 			(show_name no)
