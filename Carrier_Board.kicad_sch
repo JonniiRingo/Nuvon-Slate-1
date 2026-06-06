@@ -1451,7 +1451,7 @@
 			)
 		)
 		(pin "GPP_D0" bidirectional
-			(at 203.2 104.14 180)
+			(at 203.2 165.1 180)
 			(uuid "7a1d5053-4128-4f0c-8926-1deed48325e9")
 			(effects
 				(font
@@ -1461,7 +1461,7 @@
 			)
 		)
 		(pin "GPP_D1" bidirectional
-			(at 203.2 107.442 180)
+			(at 203.2 177.8 180)
 			(uuid "3b24e6b0-4ec6-4b2f-8c2b-c16da8b24b2e")
 			(effects
 				(font
@@ -1471,7 +1471,7 @@
 			)
 		)
 		(pin "GPP_D2" bidirectional
-			(at 203.2 110.236 180)
+			(at 203.2 186.69 180)
 			(uuid "30273cee-fd8d-465a-90d1-2aa6e2f92221")
 			(effects
 				(font
@@ -1481,7 +1481,7 @@
 			)
 		)
 		(pin "GPP_D3" bidirectional
-			(at 203.2 112.776 180)
+			(at 203.2 200.66 180)
 			(uuid "f904fe7e-7238-4a74-8819-61a33e6f4479")
 			(effects
 				(font
@@ -1671,7 +1671,7 @@
 			)
 		)
 		(pin "I2C2_SCL" output
-			(at 203.2 185.42 180)
+			(at 203.2 238.76 180)
 			(uuid "329fe79b-5fb5-4880-96d9-63e9ff572c0f")
 			(effects
 				(font
@@ -1681,7 +1681,7 @@
 			)
 		)
 		(pin "I2C2_SDA" bidirectional
-			(at 203.2 166.37 180)
+			(at 203.2 219.71 180)
 			(uuid "87b4ce59-e90c-4380-a78a-7544c0d4763d")
 			(effects
 				(font
@@ -1691,7 +1691,7 @@
 			)
 		)
 		(pin "I2C3_SCL" output
-			(at 203.2 169.164 180)
+			(at 203.2 222.504 180)
 			(uuid "ab1ed68e-02df-4803-a58e-108ec06be245")
 			(effects
 				(font
@@ -1701,7 +1701,7 @@
 			)
 		)
 		(pin "I2C3_SDA" bidirectional
-			(at 203.2 172.212 180)
+			(at 203.2 225.552 180)
 			(uuid "d1b0cc10-f7db-4044-ae02-20a803593e01")
 			(effects
 				(font
@@ -1711,7 +1711,7 @@
 			)
 		)
 		(pin "I2C4_SCL" output
-			(at 203.2 175.006 180)
+			(at 203.2 228.346 180)
 			(uuid "dfe2f65b-38c3-4eb3-9c9f-acb8f72c6f67")
 			(effects
 				(font
@@ -1721,7 +1721,7 @@
 			)
 		)
 		(pin "I2C4_SDA" bidirectional
-			(at 203.2 177.546 180)
+			(at 203.2 230.886 180)
 			(uuid "1871af36-39f6-4fc2-917c-27147737661c")
 			(effects
 				(font
@@ -1731,7 +1731,7 @@
 			)
 		)
 		(pin "I2C5_SCL" output
-			(at 203.2 179.832 180)
+			(at 203.2 233.172 180)
 			(uuid "0b144259-99ce-45f8-a46c-2246d164eaff")
 			(effects
 				(font
@@ -1741,7 +1741,7 @@
 			)
 		)
 		(pin "I2C5_SDA" bidirectional
-			(at 203.2 182.88 180)
+			(at 203.2 236.22 180)
 			(uuid "b4db2cc6-d6a5-42c5-b4f0-cc1127e1dd5c")
 			(effects
 				(font
@@ -1831,7 +1831,7 @@
 			)
 		)
 		(pin "SOC_UART0_RX" output
-			(at 203.2 188.468 180)
+			(at 203.2 241.808 180)
 			(uuid "643204a9-d740-48c6-b209-9419a14014d8")
 			(effects
 				(font
@@ -1841,7 +1841,7 @@
 			)
 		)
 		(pin "SOC_UART0_TX" output
-			(at 203.2 191.516 180)
+			(at 203.2 244.856 180)
 			(uuid "1badb6c8-aaa8-4199-b675-95b9cede98c7")
 			(effects
 				(font
@@ -1851,7 +1851,7 @@
 			)
 		)
 		(pin "SOC_UART1_RX" output
-			(at 203.2 195.834 180)
+			(at 203.2 249.174 180)
 			(uuid "22e5f0d2-6e64-4f6d-a5f7-256eb6623516")
 			(effects
 				(font
@@ -1861,7 +1861,7 @@
 			)
 		)
 		(pin "SOC_UART1_TX" output
-			(at 203.2 198.882 180)
+			(at 203.2 252.222 180)
 			(uuid "4ca8e814-98e4-4b58-a85d-a502bc839d7c")
 			(effects
 				(font
@@ -1871,7 +1871,7 @@
 			)
 		)
 		(pin "SOC_UART2_RX" output
-			(at 203.2 201.676 180)
+			(at 203.2 255.016 180)
 			(uuid "8b94f548-e412-401a-844c-9ce323f189c7")
 			(effects
 				(font
@@ -1881,7 +1881,7 @@
 			)
 		)
 		(pin "SOC_UART2_TX" output
-			(at 203.2 204.978 180)
+			(at 203.2 258.318 180)
 			(uuid "ddea95fe-cc0d-4bf7-8688-311138ab05f1")
 			(effects
 				(font
@@ -2583,8 +2583,8 @@
 		)
 	)
 	(sheet
-		(at 125.73 161.544)
-		(size 47.625 44.45)
+		(at 124.714 159.512)
+		(size 50.546 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2599,7 +2599,7 @@
 		)
 		(uuid "f0c5bd9b-b5d7-485d-b3b5-c60eebcf14e3")
 		(property "Sheetname" "GPIO"
-			(at 125.73 160.8324 0)
+			(at 124.714 158.8004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2610,7 +2610,7 @@
 			)
 		)
 		(property "Sheetfile" "GPIO.kicad_sch"
-			(at 125.73 206.5786 0)
+			(at 124.714 204.5466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
