@@ -6757,10 +6757,6 @@
 		(uuid "589c09f0-92e5-4605-99c7-826912896ab3")
 	)
 	(no_connect
-		(at 332.74 81.28)
-		(uuid "5d1928e4-499c-4fb6-a0fd-b62cd48e94b7")
-	)
-	(no_connect
 		(at 332.74 100.33)
 		(uuid "5d710e49-5038-40c0-a443-6beb1af7c43a")
 	)
@@ -6869,10 +6865,6 @@
 		(uuid "ad4572ba-3786-48b7-ac3e-ef20f43fe9ea")
 	)
 	(no_connect
-		(at 332.74 78.74)
-		(uuid "ad9e7bf8-3824-4611-9834-f35f09fa1e6c")
-	)
-	(no_connect
 		(at 332.74 171.45)
 		(uuid "ade50079-c473-4904-997a-6cc180b0afec")
 	)
@@ -6899,10 +6891,6 @@
 	(no_connect
 		(at 332.74 134.62)
 		(uuid "ba0d13e7-50c7-4039-99b3-a43d0d29b364")
-	)
-	(no_connect
-		(at 332.74 71.12)
-		(uuid "c2b2eb3d-96b1-4caf-b51d-cf5b3252b270")
 	)
 	(no_connect
 		(at 251.46 200.66)
@@ -7732,6 +7720,17 @@
 		)
 		(uuid "5a225a2c-1f4d-4ee6-b0eb-1debc2e229eb")
 	)
+	(hierarchical_label "FAN_2_TAC"
+		(shape output)
+		(at 332.74 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5dcd623d-1ad4-48aa-b7b3-c15b7ac24ef4")
+	)
 	(hierarchical_label "REFCLK4+"
 		(shape bidirectional)
 		(at 332.74 113.03 0)
@@ -7963,6 +7962,17 @@
 		)
 		(uuid "a6a2f0ee-2ef1-4eb7-9405-0d34443988d0")
 	)
+	(hierarchical_label "FAN_2_PWM"
+		(shape output)
+		(at 332.74 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad65b80f-5a37-42ac-be21-3eb406f6dff8")
+	)
 	(hierarchical_label "SOC_UART1_RX"
 		(shape output)
 		(at 332.74 193.04 0)
@@ -8061,6 +8071,17 @@
 			(justify left)
 		)
 		(uuid "c35547e2-16ff-403e-874b-61a3ac3b93e2")
+	)
+	(hierarchical_label "TEMP_EXT"
+		(shape input)
+		(at 332.74 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd2e5af9-3160-4415-bbed-1d3ec9105c14")
 	)
 	(hierarchical_label "HSIO_11_TX-"
 		(shape output)

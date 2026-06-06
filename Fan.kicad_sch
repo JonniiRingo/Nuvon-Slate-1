@@ -1803,6 +1803,19 @@
 		)
 		(uuid "0bcbb10c-fb5b-408d-b3dd-d8675fb77ade")
 	)
+	(text "SYS FAN"
+		(exclude_from_sim no)
+		(at 268.224 113.792 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "0f02e5ea-5ca2-4e4e-ad75-90093c31240f")
+	)
 	(text "LattePanda Mu has integrated pull-up resistors \n(which we will not be using J.S. 2026)"
 		(exclude_from_sim no)
 		(at 131.318 23.368 0)
@@ -1812,6 +1825,19 @@
 			)
 		)
 		(uuid "2ecc3412-daed-491a-9ae2-d45ed1dc940a")
+	)
+	(text "CPU FAN"
+		(exclude_from_sim no)
+		(at 265.43 37.338 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "8cd66c7f-cba2-421e-afce-99a6c742aeb2")
 	)
 	(text "Reserved for 12V fan\nFAN_TAC input ony allows 3.3v level\n"
 		(exclude_from_sim no)
@@ -2447,32 +2473,6 @@
 			(type default)
 		)
 		(uuid "fa0570b0-4bc2-4435-a05a-bdd173fa212e")
-	)
-	(label "SYS FAN"
-		(at 260.35 119.38 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "11c87dcc-1746-4978-abb2-8d415853f78c")
-	)
-	(label "CPU FAN"
-		(at 254 46.99 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ddec03a-1b95-4252-af68-1c6125d8754a")
 	)
 	(hierarchical_label "FAN_1_PWM"
 		(shape input)
