@@ -2775,8 +2775,8 @@
 		)
 	)
 	(sheet
-		(at 329.946 321.945)
-		(size 42.799 52.705)
+		(at 329.946 318.77)
+		(size 42.799 61.595)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2791,7 +2791,7 @@
 		)
 		(uuid "c9d591b5-2734-4735-842a-ee158b52d7b9")
 		(property "Sheetname" "M.2 M Key"
-			(at 329.946 321.2334 0)
+			(at 329.946 318.0584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2802,7 +2802,7 @@
 			)
 		)
 		(property "Sheetfile" "m2_em.kicad_sch"
-			(at 329.946 375.2346 0)
+			(at 329.946 380.9496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2895,6 +2895,96 @@
 		(pin "~{WAKE}" input
 			(at 329.946 350.52 180)
 			(uuid "9ea53623-3dd0-4bb5-891c-da75cbed4777")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_RX_0+" output
+			(at 329.946 354.33 180)
+			(uuid "10522e3b-aee9-48a1-8329-f6f84d26d1b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_RX_0-" output
+			(at 329.946 358.14 180)
+			(uuid "457ae231-75d4-40d9-a69e-a1676e0caea3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_TX_0+" input
+			(at 329.946 361.95 180)
+			(uuid "411bd830-1154-4c44-8645-a94bd32e6c62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_TX_0-" input
+			(at 329.946 365.76 180)
+			(uuid "b535fc9f-adc2-44af-84d0-6ebe9b81dbc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFCLKE+" bidirectional
+			(at 329.946 369.57 180)
+			(uuid "f935ec4a-bad1-432e-b8a8-005fbedd3298")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFCLKE-" bidirectional
+			(at 329.946 372.11 180)
+			(uuid "7600d60d-8513-4ca1-8a63-30eeefc8141f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P7+" passive
+			(at 329.946 325.12 180)
+			(uuid "49561e17-2880-4180-bf2e-dfdfa7d347ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P7-" bidirectional
+			(at 329.946 322.58 180)
+			(uuid "520c2db2-50b6-4914-8a08-4ae4d13ea07a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PLT_RSTD}" input
+			(at 329.946 375.92 180)
+			(uuid "d9c8c1ac-180f-4f7f-909b-3953b656ddd8")
 			(effects
 				(font
 					(size 1.27 1.27)
