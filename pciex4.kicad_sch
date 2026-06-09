@@ -2148,6 +2148,12 @@
 		)
 	)
 	(junction
+		(at 139.7 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ff1f022-f193-4bb3-838e-63f0d4cbf9c3")
+	)
+	(junction
 		(at 114.3 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2297,6 +2303,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 31.75) (xy 139.7 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b943ce9-2ea9-4e64-bc08-3eb089207d18")
+	)
+	(wire
+		(pts
 			(xy 114.3 78.74) (xy 114.3 83.82)
 		)
 		(stroke
@@ -2404,6 +2420,16 @@
 			(type default)
 		)
 		(uuid "767ab953-ab22-402b-aea3-c6353cda1593")
+	)
+	(wire
+		(pts
+			(xy 146.05 45.72) (xy 146.05 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e985b1-5a93-4cf9-a81d-dece1bd1ec81")
 	)
 	(wire
 		(pts
@@ -2694,6 +2720,16 @@
 			(type default)
 		)
 		(uuid "de156547-849b-4212-87bb-3d0580b484b2")
+	)
+	(wire
+		(pts
+			(xy 139.7 31.75) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09b9f8b-e3e5-4ea8-856e-3e91643da424")
 	)
 	(wire
 		(pts
@@ -5226,6 +5262,84 @@
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/d05d8b94-71f3-437a-a0af-11ed4e3069d0"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4e259ca-5584-415c-9385-eca9f4cf9b5a")
+		(property "Reference" "#PWR0150"
+			(at 139.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95334ec6-03ad-4e24-8288-38b2ba89dc73")
+		)
+		(instances
+			(project "Carrier_Board"
+				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/d05d8b94-71f3-437a-a0af-11ed4e3069d0"
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)

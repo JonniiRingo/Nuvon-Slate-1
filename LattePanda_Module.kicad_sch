@@ -7281,7 +7281,7 @@
 		(uuid "077a8037-028d-40db-b657-f57944889094")
 	)
 	(hierarchical_label "HSIO_11_RX-"
-		(shape output)
+		(shape input)
 		(at 251.46 170.18 180)
 		(effects
 			(font
@@ -7886,7 +7886,7 @@
 		(uuid "92c2f3f1-2bba-4d7c-82af-11112ec114fa")
 	)
 	(hierarchical_label "HSIO_9_RX-"
-		(shape output)
+		(shape input)
 		(at 251.46 149.86 180)
 		(effects
 			(font
@@ -8018,7 +8018,7 @@
 		(uuid "ba9245fe-bebf-4835-85b6-51baa124b970")
 	)
 	(hierarchical_label "HSIO_10_RX-"
-		(shape output)
+		(shape input)
 		(at 251.46 160.02 180)
 		(effects
 			(font
@@ -8117,7 +8117,7 @@
 		(uuid "d6b6cc1a-b53c-4f0e-980f-2c8dd1a4fec3")
 	)
 	(hierarchical_label "HSIO_8_RX-"
-		(shape output)
+		(shape input)
 		(at 251.46 139.7 180)
 		(effects
 			(font
