@@ -1447,7 +1447,7 @@
 		)
 	)
 	(sheet
-		(at 330.2 75.438)
+		(at 328.93 80.518)
 		(size 38.354 37.592)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1463,7 +1463,7 @@
 		)
 		(uuid "3ad1df68-0a03-497a-a7ee-c67c9856d4e6")
 		(property "Sheetname" "Gigabit Ethernet"
-			(at 330.2 74.7264 0)
+			(at 328.93 79.8064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1474,7 +1474,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 330.2 113.6146 0)
+			(at 328.93 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2621,8 +2621,8 @@
 		)
 	)
 	(sheet
-		(at 126.492 289.306)
-		(size 51.308 75.692)
+		(at 125.73 288.925)
+		(size 49.53 76.073)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2637,7 +2637,7 @@
 		)
 		(uuid "d05d8b94-71f3-437a-a0af-11ed4e3069d0")
 		(property "Sheetname" "PCIe x4"
-			(at 126.492 288.5944 0)
+			(at 125.73 288.2134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2648,7 +2648,7 @@
 			)
 		)
 		(property "Sheetfile" "pciex4.kicad_sch"
-			(at 126.492 365.5826 0)
+			(at 125.73 365.5826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2667,8 +2667,8 @@
 		)
 	)
 	(sheet
-		(at 125.476 123.825)
-		(size 49.784 27.305)
+		(at 125.73 123.825)
+		(size 49.53 27.305)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2683,7 +2683,7 @@
 		)
 		(uuid "db5534e0-ad9a-443b-b9b9-b696f6fb2c85")
 		(property "Sheetname" "Fan"
-			(at 125.476 123.1134 0)
+			(at 125.73 123.1134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2694,7 +2694,7 @@
 			)
 		)
 		(property "Sheetfile" "Fan.kicad_sch"
-			(at 125.476 151.7146 0)
+			(at 125.73 151.7146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2763,8 +2763,8 @@
 		)
 	)
 	(sheet
-		(at 125.984 160.274)
-		(size 49.276 122.936)
+		(at 125.73 160.274)
+		(size 49.53 122.936)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2779,7 +2779,7 @@
 		)
 		(uuid "f0c5bd9b-b5d7-485d-b3b5-c60eebcf14e3")
 		(property "Sheetname" "GPIO"
-			(at 125.984 159.5624 0)
+			(at 125.73 159.5624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2790,7 +2790,7 @@
 			)
 		)
 		(property "Sheetfile" "GPIO.kicad_sch"
-			(at 125.984 283.7946 0)
+			(at 125.73 283.7946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2989,7 +2989,7 @@
 		)
 	)
 	(sheet
-		(at 329.692 152.654)
+		(at 329.692 151.384)
 		(size 42.672 75.692)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3005,7 +3005,7 @@
 		)
 		(uuid "f6805346-90aa-47cf-a186-fe5806ffb5a5")
 		(property "Sheetname" "USB 2.0 & 3.0"
-			(at 329.692 151.9424 0)
+			(at 329.692 150.6724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3016,7 +3016,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_2_3.kicad_sch"
-			(at 329.692 228.9306 0)
+			(at 329.692 227.6606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
