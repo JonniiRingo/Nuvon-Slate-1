@@ -1601,8 +1601,8 @@
 		)
 	)
 	(sheet
-		(at 329.438 240.538)
-		(size 42.418 58.928)
+		(at 329.946 241.046)
+		(size 42.799 58.674)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1617,7 +1617,7 @@
 		)
 		(uuid "1c6e1139-d819-4324-bacb-4e7c941be195")
 		(property "Sheetname" "HDMI"
-			(at 329.438 239.8264 0)
+			(at 329.946 240.3344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1628,7 +1628,7 @@
 			)
 		)
 		(property "Sheetfile" "hdmi.kicad_sch"
-			(at 329.438 300.0506 0)
+			(at 329.946 300.3046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2775,8 +2775,8 @@
 		)
 	)
 	(sheet
-		(at 330.708 320.04)
-		(size 41.656 52.832)
+		(at 329.946 321.945)
+		(size 42.799 52.705)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2791,7 +2791,7 @@
 		)
 		(uuid "c9d591b5-2734-4735-842a-ee158b52d7b9")
 		(property "Sheetname" "M.2 M Key"
-			(at 330.708 319.3284 0)
+			(at 329.946 321.2334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2802,7 +2802,7 @@
 			)
 		)
 		(property "Sheetfile" "m2_em.kicad_sch"
-			(at 330.708 373.4566 0)
+			(at 329.946 375.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2810,6 +2810,96 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PCIe_RX_1+" output
+			(at 329.946 328.93 180)
+			(uuid "919bb9b4-368d-43e9-b6b8-b850c2cf7853")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIe_RX_1-" output
+			(at 329.946 331.47 180)
+			(uuid "416a98a1-83d8-4aac-b011-fa9d6d7892ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIe_TX_1+" input
+			(at 329.946 334.01 180)
+			(uuid "662cf18b-7e4c-4a38-b2f3-2f7953da4c38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIe_TX_1-" input
+			(at 329.946 336.55 180)
+			(uuid "a629843e-4eda-4525-b8ed-990ca043223f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFCLKM+" input
+			(at 329.946 340.36 180)
+			(uuid "7e7bbd4d-b3fd-4b91-9160-58c525621f13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFCLKM-" input
+			(at 329.946 342.9 180)
+			(uuid "d62f4c21-0dfa-4a11-9acc-d8b58bd7a4bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SUSCLK" output
+			(at 329.946 345.44 180)
+			(uuid "37c4fc98-6885-4c85-a504-d859a24b6a8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PLT_RST}" input
+			(at 329.946 347.98 180)
+			(uuid "2644f6cf-a50f-4ed8-8ae3-89731681efbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{WAKE}" input
+			(at 329.946 350.52 180)
+			(uuid "9ea53623-3dd0-4bb5-891c-da75cbed4777")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

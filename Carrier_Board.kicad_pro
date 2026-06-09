@@ -743,7 +743,7 @@
         "uuid": "e768274e-12f3-4f83-96f6-abb7638e0bc1"
       }
     ],
-    "used_designators": "#PWR150",
+    "used_designators": "TP78,R28,R31-32,R80,D80,C50,C52-58,C86,#PWR151-159,J80-81",
     "variants": []
   },
   "sheets": [
