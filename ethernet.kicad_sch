@@ -5737,6 +5737,18 @@
 		(uuid "d16c8e94-1c58-4d34-ba55-c61ef0372bfa")
 	)
 	(junction
+		(at 90.17 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3f8723c-4978-41bc-ba4e-c3b57ed3df5f")
+	)
+	(junction
+		(at 90.17 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfe18ec0-7b3c-4865-b38b-97a0184cdf6b")
+	)
+	(junction
 		(at 130.81 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5861,6 +5873,16 @@
 			(type default)
 		)
 		(uuid "18f1d921-6aaf-4391-8ff9-46af4c2ace4a")
+	)
+	(wire
+		(pts
+			(xy 134.62 128.27) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f97841-6cd0-4c0d-aee0-a944970f62df")
 	)
 	(wire
 		(pts
@@ -6054,6 +6076,26 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 67.31) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c74587-fc25-4253-93f4-eb7203847932")
+	)
+	(wire
+		(pts
+			(xy 93.98 67.31) (xy 90.17 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f6c711-09c6-470c-b736-2fb39c61b290")
+	)
+	(wire
+		(pts
 			(xy 77.47 90.17) (xy 93.98 90.17)
 		)
 		(stroke
@@ -6094,7 +6136,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 30.48) (xy 93.98 30.48)
+			(xy 82.55 30.48) (xy 90.17 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6494,13 +6536,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 62.23) (xy 93.98 30.48)
+			(xy 90.17 62.23) (xy 93.98 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c24ea77-14ec-47bd-a9fb-8f6da85c9a9f")
+		(uuid "8d16ce8d-8b4b-4591-b303-90b1e689da0c")
 	)
 	(wire
 		(pts
@@ -6571,6 +6613,16 @@
 			(type default)
 		)
 		(uuid "95234b43-ae05-4e41-8e77-f1a48bc498f1")
+	)
+	(wire
+		(pts
+			(xy 90.17 64.77) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952d3791-6eaa-41b4-950d-2dd90a34f8c6")
 	)
 	(wire
 		(pts
@@ -6954,6 +7006,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 64.77) (xy 93.98 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cebe8ac2-fcd3-4f1c-9d2c-439373828aee")
+	)
+	(wire
+		(pts
 			(xy 151.13 142.24) (xy 139.7 142.24)
 		)
 		(stroke
@@ -6971,6 +7033,16 @@
 			(type default)
 		)
 		(uuid "d37877f8-287c-475f-b5d1-14e607ec8427")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 90.17 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b13f07-bfb3-490f-802c-8f0d541809cb")
 	)
 	(wire
 		(pts
@@ -9640,7 +9712,7 @@
 		(dnp no)
 		(uuid "a596b2d5-6e27-4783-9c2c-a5ed9afce003")
 		(property "Reference" "Y1"
-			(at 134.112 128.4538 90)
+			(at 141.986 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9650,7 +9722,7 @@
 			)
 		)
 		(property "Value" "25MHz"
-			(at 146.558 128.778 90)
+			(at 144.526 128.778 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10432,6 +10504,84 @@
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/3ad1df68-0a03-497a-a7ee-c67c9856d4e6"
 					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee108ea8-6d18-438b-b8a4-168b05969244")
+		(property "Reference" "#PWR0174"
+			(at 134.62 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d19f4d79-0f80-4ee6-ac86-8699ba45b01d")
+		)
+		(instances
+			(project "Carrier_Board"
+				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/3ad1df68-0a03-497a-a7ee-c67c9856d4e6"
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)

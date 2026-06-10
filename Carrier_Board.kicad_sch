@@ -1701,7 +1701,7 @@
 		)
 	)
 	(sheet
-		(at 329.946 241.046)
+		(at 325.628 240.284)
 		(size 42.799 58.674)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1717,7 +1717,7 @@
 		)
 		(uuid "1c6e1139-d819-4324-bacb-4e7c941be195")
 		(property "Sheetname" "HDMI"
-			(at 329.946 240.3344 0)
+			(at 325.628 239.5724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1728,7 +1728,7 @@
 			)
 		)
 		(property "Sheetfile" "hdmi.kicad_sch"
-			(at 329.946 300.3046 0)
+			(at 325.628 299.5426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3739,8 +3739,8 @@
 		)
 	)
 	(sheet
-		(at 327.914 152.4)
-		(size 42.672 75.692)
+		(at 325.12 151.892)
+		(size 37.465 75.692)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3755,7 +3755,7 @@
 		)
 		(uuid "f6805346-90aa-47cf-a186-fe5806ffb5a5")
 		(property "Sheetname" "USB 2.0 & 3.0"
-			(at 327.914 151.6884 0)
+			(at 325.12 151.1804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3766,7 +3766,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_2_3.kicad_sch"
-			(at 327.914 228.6766 0)
+			(at 325.12 228.1686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
