@@ -3776,6 +3776,166 @@
 				(justify left top)
 			)
 		)
+		(pin "USB3_SSRT_N" output
+			(at 325.12 139.7 180)
+			(uuid "70078b72-a76e-4392-b4b2-7c30a3d6588c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB3_SSRT_P" output
+			(at 325.12 144.78 180)
+			(uuid "d41c6770-bbe5-4e0d-bce1-e7cd85645f8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB3_SSRX_N" input
+			(at 325.12 148.59 180)
+			(uuid "6c5edb33-721f-4171-a7f8-dd034ac5e66f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB3_SSRX_P" input
+			(at 325.12 152.4 180)
+			(uuid "41ffe8af-4abc-41a0-8d19-e43f858712ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB4_SSRT_N" input
+			(at 325.12 156.21 180)
+			(uuid "2c1e0c0f-e87c-4438-b419-f364a83bf0a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB4_SSRT_P" output
+			(at 325.12 160.02 180)
+			(uuid "6a175129-280d-4316-8e58-d01c3bfd5808")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB4_SSRX_N" input
+			(at 325.12 163.83 180)
+			(uuid "3cc205fb-74b0-46f2-a753-5542c65a519a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB4_SSRX_P" input
+			(at 325.12 167.64 180)
+			(uuid "7319801b-af1b-4c05-a75b-728cdbbe7da2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P1+" bidirectional
+			(at 325.12 172.72 180)
+			(uuid "d7c1fc58-bf23-4e95-9017-e22f14fa7647")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P1-" bidirectional
+			(at 325.12 176.53 180)
+			(uuid "a44efc67-f0b7-4340-83b5-81e63f6cd365")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P2+" bidirectional
+			(at 325.12 180.34 180)
+			(uuid "b621186a-fbc9-44ab-888a-d754d00e135b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P2-" bidirectional
+			(at 325.12 184.15 180)
+			(uuid "ccff6a5a-3bec-4d80-860e-3151f49a6f0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P3+" bidirectional
+			(at 325.12 187.96 180)
+			(uuid "bf43cb47-66c7-4f2f-b850-dc1cba940353")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P3-" bidirectional
+			(at 325.12 191.77 180)
+			(uuid "f48fa47d-dd02-40e5-a4cf-ddb39c4f1553")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P5+" bidirectional
+			(at 325.12 195.58 180)
+			(uuid "f5089a57-cd68-48ff-9646-e1bb6808dbd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P5-" bidirectional
+			(at 325.12 199.39 180)
+			(uuid "afaeea9a-50fe-4907-8675-415006ca2d4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
