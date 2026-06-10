@@ -1701,8 +1701,8 @@
 		)
 	)
 	(sheet
-		(at 325.628 240.284)
-		(size 42.799 58.674)
+		(at 325.12 222.885)
+		(size 38.1 58.928)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1717,7 +1717,7 @@
 		)
 		(uuid "1c6e1139-d819-4324-bacb-4e7c941be195")
 		(property "Sheetname" "HDMI"
-			(at 325.628 239.5724 0)
+			(at 325.12 222.1734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1728,7 +1728,7 @@
 			)
 		)
 		(property "Sheetfile" "hdmi.kicad_sch"
-			(at 325.628 299.5426 0)
+			(at 325.12 282.3976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1748,7 +1748,7 @@
 	)
 	(sheet
 		(at 325.12 81.915)
-		(size 37.211 45.72)
+		(size 38.1 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2945,8 +2945,8 @@
 		)
 	)
 	(sheet
-		(at 329.946 318.77)
-		(size 42.799 61.595)
+		(at 325.12 301.625)
+		(size 38.1 61.595)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2961,7 +2961,7 @@
 		)
 		(uuid "c9d591b5-2734-4735-842a-ee158b52d7b9")
 		(property "Sheetname" "M.2 M Key"
-			(at 329.946 318.0584 0)
+			(at 325.12 300.9134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2972,7 +2972,7 @@
 			)
 		)
 		(property "Sheetfile" "m2_em.kicad_sch"
-			(at 329.946 380.9496 0)
+			(at 325.12 363.8046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2983,7 +2983,7 @@
 			)
 		)
 		(pin "PCIe_RX_1+" output
-			(at 329.946 328.93 180)
+			(at 325.12 311.785 180)
 			(uuid "919bb9b4-368d-43e9-b6b8-b850c2cf7853")
 			(effects
 				(font
@@ -2993,7 +2993,7 @@
 			)
 		)
 		(pin "PCIe_RX_1-" output
-			(at 329.946 331.47 180)
+			(at 325.12 314.325 180)
 			(uuid "416a98a1-83d8-4aac-b011-fa9d6d7892ee")
 			(effects
 				(font
@@ -3003,7 +3003,7 @@
 			)
 		)
 		(pin "PCIe_TX_1+" input
-			(at 329.946 334.01 180)
+			(at 325.12 316.865 180)
 			(uuid "662cf18b-7e4c-4a38-b2f3-2f7953da4c38")
 			(effects
 				(font
@@ -3013,7 +3013,7 @@
 			)
 		)
 		(pin "PCIe_TX_1-" input
-			(at 329.946 336.55 180)
+			(at 325.12 319.405 180)
 			(uuid "a629843e-4eda-4525-b8ed-990ca043223f")
 			(effects
 				(font
@@ -3023,7 +3023,7 @@
 			)
 		)
 		(pin "REFCLKM+" input
-			(at 329.946 340.36 180)
+			(at 325.12 323.215 180)
 			(uuid "7e7bbd4d-b3fd-4b91-9160-58c525621f13")
 			(effects
 				(font
@@ -3033,7 +3033,7 @@
 			)
 		)
 		(pin "REFCLKM-" input
-			(at 329.946 342.9 180)
+			(at 325.12 325.755 180)
 			(uuid "d62f4c21-0dfa-4a11-9acc-d8b58bd7a4bb")
 			(effects
 				(font
@@ -3043,7 +3043,7 @@
 			)
 		)
 		(pin "SUSCLK" output
-			(at 329.946 345.44 180)
+			(at 325.12 328.295 180)
 			(uuid "37c4fc98-6885-4c85-a504-d859a24b6a8a")
 			(effects
 				(font
@@ -3053,7 +3053,7 @@
 			)
 		)
 		(pin "~{PLT_RST}" input
-			(at 329.946 347.98 180)
+			(at 325.12 330.835 180)
 			(uuid "2644f6cf-a50f-4ed8-8ae3-89731681efbe")
 			(effects
 				(font
@@ -3063,7 +3063,7 @@
 			)
 		)
 		(pin "~{WAKE}" input
-			(at 329.946 350.52 180)
+			(at 325.12 333.375 180)
 			(uuid "9ea53623-3dd0-4bb5-891c-da75cbed4777")
 			(effects
 				(font
@@ -3073,7 +3073,7 @@
 			)
 		)
 		(pin "PCIE_RX_0+" output
-			(at 329.946 354.33 180)
+			(at 325.12 337.185 180)
 			(uuid "10522e3b-aee9-48a1-8329-f6f84d26d1b5")
 			(effects
 				(font
@@ -3083,7 +3083,7 @@
 			)
 		)
 		(pin "PCIE_RX_0-" output
-			(at 329.946 358.14 180)
+			(at 325.12 340.995 180)
 			(uuid "457ae231-75d4-40d9-a69e-a1676e0caea3")
 			(effects
 				(font
@@ -3093,7 +3093,7 @@
 			)
 		)
 		(pin "PCIE_TX_0+" input
-			(at 329.946 361.95 180)
+			(at 325.12 344.805 180)
 			(uuid "411bd830-1154-4c44-8645-a94bd32e6c62")
 			(effects
 				(font
@@ -3103,7 +3103,7 @@
 			)
 		)
 		(pin "PCIE_TX_0-" input
-			(at 329.946 365.76 180)
+			(at 325.12 348.615 180)
 			(uuid "b535fc9f-adc2-44af-84d0-6ebe9b81dbc6")
 			(effects
 				(font
@@ -3113,7 +3113,7 @@
 			)
 		)
 		(pin "REFCLKE+" bidirectional
-			(at 329.946 369.57 180)
+			(at 325.12 352.425 180)
 			(uuid "f935ec4a-bad1-432e-b8a8-005fbedd3298")
 			(effects
 				(font
@@ -3123,7 +3123,7 @@
 			)
 		)
 		(pin "REFCLKE-" bidirectional
-			(at 329.946 372.11 180)
+			(at 325.12 354.965 180)
 			(uuid "7600d60d-8513-4ca1-8a63-30eeefc8141f")
 			(effects
 				(font
@@ -3133,7 +3133,7 @@
 			)
 		)
 		(pin "USB_2_P7+" passive
-			(at 329.946 325.12 180)
+			(at 325.12 307.975 180)
 			(uuid "49561e17-2880-4180-bf2e-dfdfa7d347ed")
 			(effects
 				(font
@@ -3143,7 +3143,7 @@
 			)
 		)
 		(pin "USB_2_P7-" bidirectional
-			(at 329.946 322.58 180)
+			(at 325.12 305.435 180)
 			(uuid "520c2db2-50b6-4914-8a08-4ae4d13ea07a")
 			(effects
 				(font
@@ -3153,7 +3153,7 @@
 			)
 		)
 		(pin "~{PLT_RSTD}" input
-			(at 329.946 375.92 180)
+			(at 325.12 358.775 180)
 			(uuid "d9c8c1ac-180f-4f7f-909b-3953b656ddd8")
 			(effects
 				(font
@@ -3739,8 +3739,8 @@
 		)
 	)
 	(sheet
-		(at 325.12 151.892)
-		(size 37.465 75.692)
+		(at 325.12 134.62)
+		(size 38.1 75.819)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3755,7 +3755,7 @@
 		)
 		(uuid "f6805346-90aa-47cf-a186-fe5806ffb5a5")
 		(property "Sheetname" "USB 2.0 & 3.0"
-			(at 325.12 151.1804 0)
+			(at 325.12 133.9084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3766,7 +3766,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_2_3.kicad_sch"
-			(at 325.12 228.1686 0)
+			(at 325.12 211.0236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
