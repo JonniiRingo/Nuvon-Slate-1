@@ -5880,7 +5880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74b02b48-d137-4f0b-a098-bd1c23fef8a2")
-		(property "Reference" "J4B"
+		(property "Reference" "J4B78"
 			(at 111.76 88.2649 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5995,7 +5995,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/f6805346-90aa-47cf-a186-fe5806ffb5a5"
-					(reference "J4B")
+					(reference "J4B78")
 					(unit 2)
 				)
 			)
