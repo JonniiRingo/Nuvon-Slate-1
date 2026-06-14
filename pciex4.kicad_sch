@@ -1892,6 +1892,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12VA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12VA"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12VA\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -2190,6 +2329,12 @@
 		(uuid "6edb2956-7c29-4938-ae26-cdc63c882944")
 	)
 	(junction
+		(at 106.68 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "732e3f33-9e51-4127-9158-ac09b943e3b9")
+	)
+	(junction
 		(at 170.18 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2232,16 +2377,36 @@
 		(uuid "f18f76e3-24e7-466e-8cf8-8f1b2b608215")
 	)
 	(no_connect
+		(at 154.94 105.41)
+		(uuid "0eb39ed4-134f-4035-af92-c0a9897a6b29")
+	)
+	(no_connect
 		(at 154.94 128.27)
 		(uuid "3358ee8a-1dfe-41c5-9afa-231f18837187")
+	)
+	(no_connect
+		(at 154.94 102.87)
+		(uuid "49fe43d6-4ae5-4184-87c9-f9a719bb0cae")
 	)
 	(no_connect
 		(at 154.94 123.19)
 		(uuid "5f3f8212-d3c5-4492-83d2-4c595db0680c")
 	)
 	(no_connect
+		(at 124.46 102.87)
+		(uuid "77695117-7999-40b9-804b-afd7a80fd51d")
+	)
+	(no_connect
+		(at 154.94 97.79)
+		(uuid "91b25db2-1b39-4bc0-99d8-5710b39f8abd")
+	)
+	(no_connect
 		(at 154.94 125.73)
 		(uuid "a2732a08-96b9-4c7e-afdb-29d805098cbc")
+	)
+	(no_connect
+		(at 154.94 100.33)
+		(uuid "d7d83b46-0997-42c6-b0a8-438d53617d05")
 	)
 	(no_connect
 		(at 154.94 118.11)
@@ -2250,6 +2415,10 @@
 	(no_connect
 		(at 154.94 120.65)
 		(uuid "f8a0d0bf-2379-492d-84f4-a9e4d81a51b7")
+	)
+	(no_connect
+		(at 124.46 105.41)
+		(uuid "ffb7c878-fa65-4a58-a0ee-2c2244c3702d")
 	)
 	(wire
 		(pts
@@ -4665,7 +4834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4c64827-7313-4235-a1c6-21401f8dd75f")
-		(property "Reference" "J79"
+		(property "Reference" "J2"
 			(at 141.8433 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4925,7 +5094,85 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/d05d8b94-71f3-437a-a0af-11ed4e3069d0"
-					(reference "J79")
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12VA")
+		(at 106.68 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8058e63-1944-42ce-9d96-2b8a3fb02443")
+		(property "Reference" "#PWR0200"
+			(at 106.68 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12VA"
+			(at 106.68 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12VA\""
+			(at 106.68 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ec969f3-48e2-4493-8a55-d66841de1540")
+		)
+		(instances
+			(project "Carrier_Board"
+				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/d05d8b94-71f3-437a-a0af-11ed4e3069d0"
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)

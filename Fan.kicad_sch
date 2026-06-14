@@ -4171,7 +4171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8047858e-8e7c-440d-aa16-8ae6d018a661")
-		(property "Reference" "R74"
+		(property "Reference" "R73"
 			(at 216.916 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4245,7 +4245,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R74")
+					(reference "R73")
 					(unit 1)
 				)
 			)
