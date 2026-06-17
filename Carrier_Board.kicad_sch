@@ -1434,7 +1434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 441.96 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -1457,6 +1457,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 441.96 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 441.96 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 441.96 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -1510,7 +1532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
 			(at 472.186 326.898 0)
 			(hide yes)
 			(show_name no)
@@ -1533,6 +1555,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 472.186 326.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 472.186 326.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 472.186 326.898 0)
 			(hide yes)
 			(show_name no)
@@ -1567,7 +1611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d0f3514-9d5b-4c13-830e-784f11fae569")
-		(property "Reference" "H79"
+		(property "Reference" "H80"
 			(at 474.218 305.0539 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1589,7 +1633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
 			(at 471.678 307.594 0)
 			(hide yes)
 			(show_name no)
@@ -1622,13 +1666,35 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 471.678 307.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 471.678 307.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af375678-d8a7-4bd4-bc89-2b66d0817be2")
 		)
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
-					(reference "H79")
+					(reference "H80")
 					(unit 1)
 				)
 			)
@@ -1824,7 +1890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 472.44 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -1857,6 +1923,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 472.44 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 472.44 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
@@ -1878,7 +1966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c2f7af7-ff52-4755-8a02-c34ea5b3c7c7")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR079"
 			(at 441.96 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -1938,7 +2026,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
-					(reference "#PWR080")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1956,7 +2044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dc9f817-1d94-4ef9-ae47-67cbe0523b03")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR080"
 			(at 471.678 316.484 0)
 			(hide yes)
 			(show_name no)
@@ -2016,7 +2104,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
-					(reference "#PWR079")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -2034,7 +2122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcab3080-6e8e-494c-b5fa-fc3767dbaae8")
-		(property "Reference" "H80"
+		(property "Reference" "H79"
 			(at 444.5 325.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2056,7 +2144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
 			(at 441.96 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -2089,13 +2177,35 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 441.96 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 441.96 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "898261a8-d239-434e-88c5-5d96515b5e32")
 		)
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
-					(reference "H80")
+					(reference "H79")
 					(unit 1)
 				)
 			)
@@ -2135,7 +2245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
 			(at 440.69 307.594 0)
 			(hide yes)
 			(show_name no)
@@ -2158,6 +2268,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 440.69 307.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 440.69 307.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 440.69 307.594 0)
 			(hide yes)
 			(show_name no)

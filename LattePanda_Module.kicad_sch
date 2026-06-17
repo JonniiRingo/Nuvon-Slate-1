@@ -5952,6 +5952,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -8315,7 +8438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01a68064-6ff2-4ac7-8fa6-a679b78f58c1")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR085"
 			(at 290.83 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8375,7 +8498,85 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "#PWR088")
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 470.408 304.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05567a74-f6d2-488c-a70b-dd81d3263964")
+		(property "Reference" "#PWR0198"
+			(at 470.408 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 470.408 309.626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 470.408 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 470.408 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 470.408 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d375a789-ae4f-4115-b2d2-a4b7d2be1784")
+		)
+		(instances
+			(project "Carrier_Board"
+				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -8393,7 +8594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0980933d-98a6-41e0-a981-f16722bb07f0")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR082"
 			(at 177.8 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8453,7 +8654,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "#PWR091")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -8594,6 +8795,28 @@
 			)
 		)
 		(property "Description" "A micro computing module with x86 processer, RAM and eMMC."
+			(at 292.1 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 292.1 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 292.1 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9408,7 +9631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "361ab676-7453-474e-b956-0c8c67e6f90b")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR083"
 			(at 228.6 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -9468,7 +9691,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "#PWR087")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -9485,7 +9708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48bf9665-2ba5-40cf-92b0-48ca61e38c26")
-		(property "Reference" "R78"
+		(property "Reference" "R82"
 			(at 367.284 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9505,7 +9728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 366.268 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -9548,6 +9771,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 364.49 129.286 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 364.49 129.286 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c73e844-5946-4d75-b34c-3d4439ff44ee")
 		)
@@ -9557,7 +9802,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "R78")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -9575,7 +9820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e5589ee-1a58-48d3-8747-d3f048badc22")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR086"
 			(at 292.1 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -9635,7 +9880,118 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "#PWR082")
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 439.42 302.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "655d0e93-19d1-45fc-9306-93457d1cb854")
+		(property "Reference" "H5"
+			(at 441.96 299.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 441.96 302.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3mm_M2_Pad_TopOnly"
+			(at 439.42 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 439.42 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 439.42 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 439.42 302.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 439.42 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 439.42 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0b0beb5-a00f-4032-9713-df6d43f70bfc")
+		)
+		(instances
+			(project "Carrier_Board"
+				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -9652,7 +10008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f6db73e-4f52-412b-acfd-0bede7a199bf")
-		(property "Reference" "R2"
+		(property "Reference" "R81"
 			(at 360.172 269.494 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9672,7 +10028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 356.87 268.478 90)
 			(hide yes)
 			(show_name no)
@@ -9715,6 +10071,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 356.87 266.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 356.87 266.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "80016afe-6c32-4369-b5cd-3d4c0cef2c78")
 		)
@@ -9724,7 +10102,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "R2")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -9742,7 +10120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7097c00d-124e-4e86-b967-900fb9cd8f94")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR088"
 			(at 335.28 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9803,7 +10181,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "#PWR090")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -9820,7 +10198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71a3ba0a-a2d9-4fa2-8749-2673e83c144c")
-		(property "Reference" "R1"
+		(property "Reference" "R80"
 			(at 302.768 53.086 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9840,7 +10218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 306.07 54.102 90)
 			(hide yes)
 			(show_name no)
@@ -9883,6 +10261,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 306.07 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 306.07 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d638ec37-01ca-49be-b224-b56b68d997be")
 		)
@@ -9892,7 +10292,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "R1")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -9910,7 +10310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ba83381-ed44-4e9f-9ba5-b9c30f484cb1")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR090"
 			(at 369.57 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -9981,7 +10381,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "#PWR083")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -9999,7 +10399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8866c703-1113-46b9-9686-7070e0484469")
-		(property "Reference" "BT1"
+		(property "Reference" "BT78"
 			(at 316.9285 49.276 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10019,7 +10419,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:Battery_Holder_CR1220_S8411-45R"
 			(at 317.246 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -10085,6 +10485,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 318.77 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 318.77 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f8a5c6d-5813-414a-92cf-36e127ff6301")
 		)
@@ -10094,7 +10516,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "BT1")
+					(reference "BT78")
 					(unit 1)
 				)
 			)
@@ -10112,7 +10534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d60cb14-c4c7-4c0e-9319-fc9871bad70c")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR089"
 			(at 364.49 145.034 0)
 			(hide yes)
 			(show_name no)
@@ -10172,7 +10594,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "#PWR084")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -10190,7 +10612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95521a20-d514-409f-8f28-c1d6932db066")
-		(property "Reference" "TP7"
+		(property "Reference" "TP78"
 			(at 341.884 260.8579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10212,7 +10634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:TestPoint_Pad_D1.5mm"
 			(at 345.44 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -10245,13 +10667,35 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 340.36 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 340.36 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c98a8804-cdd1-4be9-abc7-c6d0168a0c19")
 		)
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "TP7")
+					(reference "TP78")
 					(unit 1)
 				)
 			)
@@ -10269,7 +10713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f9072c9-e09f-4605-98fb-132cb1b9d846")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR091"
 			(at 375.412 145.288 0)
 			(hide yes)
 			(show_name no)
@@ -10329,7 +10773,85 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "#PWR085")
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 439.42 304.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b17c05ed-57eb-46d7-a544-d05a0467b6a4")
+		(property "Reference" "#PWR0197"
+			(at 439.42 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 439.42 309.626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 439.42 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 439.42 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 439.42 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1138a37-2a8f-4ca2-9e22-098b6a1213d8")
+		)
+		(instances
+			(project "Carrier_Board"
+				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -10346,7 +10868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3440d34-cb89-4ada-ac92-dfa81ac530d7")
-		(property "Reference" "R79"
+		(property "Reference" "R83"
 			(at 378.206 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10366,7 +10888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 377.19 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -10409,6 +10931,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 375.412 129.286 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 375.412 129.286 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c056ab2b-ab94-4af4-b876-a42b21311a57")
 		)
@@ -10418,7 +10962,118 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "R79")
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 470.408 302.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b778d839-eb09-4ffe-9309-ee433dd9d0c0")
+		(property "Reference" "H6"
+			(at 473.71 299.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 473.71 302.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 470.408 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 470.408 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 470.408 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 470.408 302.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 470.408 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 470.408 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80d51229-048d-4855-9d58-df0a24cde953")
+		)
+		(instances
+			(project "Carrier_Board"
+				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -10436,7 +11091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbcd2295-a787-4e93-8cb7-4dbca070ae1f")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR084"
 			(at 228.6 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -10496,7 +11151,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "#PWR086")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -10514,7 +11169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e479eb4a-83ac-4c6d-b62c-78bf1c2262cf")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR087"
 			(at 294.64 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10574,7 +11229,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "#PWR089")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -10591,7 +11246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0a35a5d-67be-480b-9ac7-71d816bfe106")
-		(property "Reference" "R77"
+		(property "Reference" "R79"
 			(at 242.824 296.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10611,7 +11266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 237.49 296.418 90)
 			(hide yes)
 			(show_name no)
@@ -10654,6 +11309,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 237.49 294.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 237.49 294.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ec4f436-25e6-4a88-9622-39161c17c4d8")
 		)
@@ -10663,7 +11340,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "R77")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -10680,7 +11357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0b3ac00-a680-4b64-8e1a-f35daa96fd9b")
-		(property "Reference" "R76"
+		(property "Reference" "R78"
 			(at 242.57 259.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10700,7 +11377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 237.49 258.318 90)
 			(hide yes)
 			(show_name no)
@@ -10743,6 +11420,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 237.49 256.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 237.49 256.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "440b89d1-e443-47bc-b40b-92b2e3bec03f")
 		)
@@ -10752,7 +11451,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/9091bed5-f3cd-41d6-819e-8bd33fc47ed3"
-					(reference "R76")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -10825,6 +11524,28 @@
 		)
 		(property "Purpose" ""
 			(at 180.34 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 180.34 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 180.34 66.04 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

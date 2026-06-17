@@ -2540,7 +2540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00b20b46-d009-45c3-b0b8-22b26172e6b3")
-		(property "Reference" "R68"
+		(property "Reference" "R114"
 			(at 193.04 52.832 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2605,6 +2605,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 185.42 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 185.42 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b5eac7bd-a6e4-4efa-bc8d-68765b29773a")
 		)
@@ -2614,7 +2636,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R68")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -2631,7 +2653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03c7ad0b-6fa6-4929-9792-61c538442455")
-		(property "Reference" "R74"
+		(property "Reference" "R120"
 			(at 221.488 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2696,6 +2718,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 219.71 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 219.71 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a8f7e0da-e1d5-493d-8513-153091625b38")
 		)
@@ -2705,7 +2749,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R74")
+					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -2723,7 +2767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09fe5a90-e7d7-46dc-87ee-f830439d937d")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0131"
 			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2783,7 +2827,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "#PWR0130")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -2979,7 +3023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0603_1608Metric"
 			(at 55.88 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3004,6 +3048,38 @@
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
 			(at 55.88 91.44 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 55.88 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3038,7 +3114,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29092f7c-8799-4368-88b9-3a556a81dc97")
-		(property "Reference" "R67"
+		(property "Reference" "R113"
 			(at 172.212 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3103,6 +3179,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 173.99 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 173.99 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f16038a-7b99-4401-9bd5-5daf2fe50b90")
 		)
@@ -3112,7 +3210,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R67")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -3130,7 +3228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b2f58cf-fcc5-4808-b9ee-85947c1d9d5b")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0130"
 			(at 232.41 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -3190,7 +3288,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "#PWR0122")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -3208,7 +3306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ba6974c-c791-418d-a15a-74c1164504f3")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0124"
 			(at 160.02 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3268,7 +3366,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "#PWR0126")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -3285,7 +3383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "303d206b-8f32-41a6-a7fe-19d6b9ac8d4b")
-		(property "Reference" "R64"
+		(property "Reference" "R110"
 			(at 155.702 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3350,6 +3448,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 157.48 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 157.48 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bb72f89e-4b8f-4e53-bad1-1060a792f42c")
 		)
@@ -3359,7 +3479,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R64")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -3376,7 +3496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e64ab9b-6bcf-4f06-b0ec-718d0c6356bd")
-		(property "Reference" "R75"
+		(property "Reference" "R121"
 			(at 232.156 98.298 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,6 +3561,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 234.95 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 234.95 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6eb180ec-65f3-4354-99f3-781c6a344283")
 		)
@@ -3450,7 +3592,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R75")
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -3468,7 +3610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "455bc341-0259-4466-8596-ad32d1ecbc2f")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0126"
 			(at 173.99 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -3528,7 +3670,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "#PWR0127")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -3546,7 +3688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c94e0df-5b76-428b-969b-3cfcc884fc43")
-		(property "Reference" "TP11"
+		(property "Reference" "TP88"
 			(at 173.99 44.9579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3568,7 +3710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:TestPoint_Pad_D1.5mm"
 			(at 176.53 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3601,13 +3743,35 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 171.45 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 171.45 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd3a1696-f987-4ec1-b36b-9ca98c2b4413")
 		)
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "TP11")
+					(reference "TP88")
 					(unit 1)
 				)
 			)
@@ -3624,7 +3788,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65c761a3-1198-49c4-9bab-949fa3e15219")
-		(property "Reference" "R65"
+		(property "Reference" "R111"
 			(at 158.242 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,6 +3853,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 160.02 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 160.02 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3387f796-43ee-4d9f-9eb1-cab2bf679301")
 		)
@@ -3698,7 +3884,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R65")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -3715,7 +3901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66078b06-4f71-456e-ab4c-c2c550262ac4")
-		(property "Reference" "R72"
+		(property "Reference" "R118"
 			(at 218.948 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3780,6 +3966,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 217.17 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 217.17 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ba6f9116-8434-4d2c-a53f-67db391a5ef9")
 		)
@@ -3789,7 +3997,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R72")
+					(reference "R118")
 					(unit 1)
 				)
 			)
@@ -3807,7 +4015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66288515-93c5-48ad-b132-b5f99b579242")
-		(property "Reference" "D26"
+		(property "Reference" "D94"
 			(at 234.95 37.7824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,6 +4080,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 232.41 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 232.41 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "df2a095c-e054-49c1-b940-76400515ff0b")
 		)
@@ -3881,7 +4111,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "D26")
+					(reference "D94")
 					(unit 1)
 				)
 			)
@@ -3898,7 +4128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69d192c0-cada-484c-8eb5-eccc751f5b8c")
-		(property "Reference" "R70"
+		(property "Reference" "R116"
 			(at 195.58 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3963,6 +4193,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 187.96 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 187.96 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9374ad55-cdd0-4998-921f-33380c4ba4ed")
 		)
@@ -3972,7 +4224,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R70")
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -3989,7 +4241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b14070b-9c3e-40d4-a490-520e3e16203b")
-		(property "Reference" "R69"
+		(property "Reference" "R115"
 			(at 193.04 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4054,6 +4306,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 185.42 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 185.42 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8455b96b-c143-481f-8b95-de4db05cc9f3")
 		)
@@ -4063,7 +4337,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R69")
+					(reference "R115")
 					(unit 1)
 				)
 			)
@@ -4080,7 +4354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7086ffe2-e0bc-4166-9c97-3bffd6d0bcb7")
-		(property "Reference" "C85"
+		(property "Reference" "C100"
 			(at 195.072 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,6 +4419,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 200.66 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 200.66 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1408175b-b89f-47a8-b37a-cf799847d10f")
 		)
@@ -4154,7 +4450,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "C85")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -4171,7 +4467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8047858e-8e7c-440d-aa16-8ae6d018a661")
-		(property "Reference" "R73"
+		(property "Reference" "R119"
 			(at 216.916 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4236,6 +4532,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 219.71 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 219.71 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19ec72ea-ee76-4c70-aaaa-eb6c007191b3")
 		)
@@ -4245,7 +4563,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R73")
+					(reference "R119")
 					(unit 1)
 				)
 			)
@@ -4263,7 +4581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81f782a4-d1c0-4688-80f3-3628c9cc99a6")
-		(property "Reference" "M78"
+		(property "Reference" "M1"
 			(at 256.54 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,7 +4603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 251.46 56.896 0)
 			(hide yes)
 			(show_name no)
@@ -4318,6 +4636,38 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 251.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 251.46 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8cc4ed49-96a2-4427-a508-f6bf5cb2b9b4")
 		)
@@ -4333,7 +4683,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "M78")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -4351,7 +4701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87ab19fe-d47a-42b5-aa96-e80482451e6c")
-		(property "Reference" "TP12"
+		(property "Reference" "TP87"
 			(at 160.02 61.7219 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4373,7 +4723,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:TestPoint_Pad_D1.5mm"
 			(at 152.4 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4406,13 +4756,35 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 157.48 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 157.48 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36f247ec-c2ba-4d25-a30a-da2f94cd9d42")
 		)
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "TP12")
+					(reference "TP87")
 					(unit 1)
 				)
 			)
@@ -4571,6 +4943,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 43.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 43.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26c64966-3f94-4815-898d-ecebd44c3278")
 		)
@@ -4676,7 +5070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "babd54fe-b08a-4e7f-b4b1-5a266eb22c79")
-		(property "Reference" "D27"
+		(property "Reference" "D95"
 			(at 237.49 111.4424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4741,6 +5135,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 234.95 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 234.95 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7713e9b3-0d72-40bd-9707-82a6eba429a5")
 		)
@@ -4750,7 +5166,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "D27")
+					(reference "D95")
 					(unit 1)
 				)
 			)
@@ -4767,7 +5183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be0847b4-2433-4817-8060-bad3a06ce278")
-		(property "Reference" "R66"
+		(property "Reference" "R112"
 			(at 169.672 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4832,6 +5248,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 171.45 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 171.45 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6cadeb70-f468-40dd-a56f-40c250fadb84")
 		)
@@ -4841,7 +5279,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R66")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -4858,7 +5296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c90d030e-28af-49a5-9bf2-770b69a51966")
-		(property "Reference" "C84"
+		(property "Reference" "C99"
 			(at 192.532 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4923,6 +5361,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 198.12 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 198.12 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7088c39-2681-47f9-a005-bc651d43677d")
 		)
@@ -4932,7 +5392,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "C84")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -4949,7 +5409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb294b5c-250d-49c8-9e39-5e4837208daf")
-		(property "Reference" "R63"
+		(property "Reference" "R109"
 			(at 58.42 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5014,6 +5474,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 55.88 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 55.88 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "434c6953-0eaf-41d1-8644-67eb6f0e957a")
 		)
@@ -5023,7 +5505,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R63")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -5041,7 +5523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc8f5e31-1934-4d22-821a-99d5d6bd08e3")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0122"
 			(at 55.88 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5101,7 +5583,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "#PWR0131")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -5141,7 +5623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 254 130.556 0)
 			(hide yes)
 			(show_name no)
@@ -5166,6 +5648,38 @@
 		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
 			(at 254 130.81 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 254 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 254 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 254 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5207,7 +5721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d901732a-c384-4de5-8867-7b08d3ba040a")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0127"
 			(at 198.12 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5267,7 +5781,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "#PWR0118")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -5363,7 +5877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e27352b6-28b0-4860-85a2-25683acfa8c4")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0121"
 			(at 55.88 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5423,7 +5937,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "#PWR0132")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -5441,7 +5955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e99d013e-3134-45fa-8e78-fe16059238f3")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0132"
 			(at 251.46 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5501,7 +6015,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "#PWR0124")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -5518,7 +6032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5af7e68-cdec-4e3b-b93d-8e04701e5251")
-		(property "Reference" "R71"
+		(property "Reference" "R117"
 			(at 195.58 131.572 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5583,6 +6097,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 187.96 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 187.96 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed28424d-fff4-4790-9022-35b6badb648e")
 		)
@@ -5592,7 +6128,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R71")
+					(reference "R117")
 					(unit 1)
 				)
 			)
