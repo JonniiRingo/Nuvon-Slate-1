@@ -5356,7 +5356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d45e3202-2579-49de-b671-26be88cb9593")
-		(property "Reference" "J89"
+		(property "Reference" "J2"
 			(at 212.9633 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5638,7 +5638,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/d05d8b94-71f3-437a-a0af-11ed4e3069d0"
-					(reference "J89")
+					(reference "J2")
 					(unit 1)
 				)
 			)
