@@ -5231,7 +5231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a2769b9-f68b-4042-9031-fc8082b4f95f")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 67.31 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5349,7 +5349,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/f6805346-90aa-47cf-a186-fe5806ffb5a5"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
