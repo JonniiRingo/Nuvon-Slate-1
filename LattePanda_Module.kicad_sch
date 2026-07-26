@@ -11002,7 +11002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "A_HDJ_Library:MountingHole_3mm_M2_Pad_TopOnly"
 			(at 470.408 302.26 0)
 			(hide yes)
 			(show_name no)
