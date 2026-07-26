@@ -5183,7 +5183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be0847b4-2433-4817-8060-bad3a06ce278")
-		(property "Reference" "R66"
+		(property "Reference" "R206"
 			(at 169.672 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5279,7 +5279,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/db5534e0-ad9a-443b-b9b9-b696f6fb2c85"
-					(reference "R66")
+					(reference "R206")
 					(unit 1)
 				)
 			)

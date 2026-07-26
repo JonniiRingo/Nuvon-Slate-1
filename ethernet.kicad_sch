@@ -9859,7 +9859,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bbf151f-16f1-4cea-bc5d-55d5febe30b3")
-		(property "Reference" "C12"
+		(property "Reference" "C47"
 			(at 151.13 144.272 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9943,7 +9943,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/3ad1df68-0a03-497a-a7ee-c67c9856d4e6"
-					(reference "C12")
+					(reference "C47")
 					(unit 1)
 				)
 			)

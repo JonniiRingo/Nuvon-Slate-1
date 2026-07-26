@@ -5655,7 +5655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "325901a5-b923-403c-83a6-19a5185631b4")
-		(property "Reference" "C27"
+		(property "Reference" "C24"
 			(at 141.478 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5749,7 +5749,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/1c6e1139-d819-4324-bacb-4e7c941be195"
-					(reference "C27")
+					(reference "C24")
 					(unit 1)
 				)
 			)
