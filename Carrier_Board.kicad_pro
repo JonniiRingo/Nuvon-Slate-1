@@ -203,7 +203,7 @@
           "corner_radius_percentage": 100,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.1,
+          "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 1.0
         },
@@ -211,7 +211,7 @@
           "corner_radius_percentage": 60,
           "corner_style": 0,
           "max_amplitude": 0.25,
-          "min_amplitude": 0.1,
+          "min_amplitude": 0.01,
           "single_sided": false,
           "spacing": 0.6
         },
@@ -219,7 +219,7 @@
           "corner_radius_percentage": 100,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.1,
+          "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 0.6
         }
@@ -822,7 +822,7 @@
         "uuid": "e768274e-12f3-4f83-96f6-abb7638e0bc1"
       }
     ],
-    "used_designators": "#PWR199-201,J19-21,U78",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
