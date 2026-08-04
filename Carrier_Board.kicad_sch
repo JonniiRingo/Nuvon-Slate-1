@@ -2595,6 +2595,52 @@
 		)
 	)
 	(sheet
+		(at 203.2 26.67)
+		(size 102.362 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "82ad3407-57b9-41ac-a23a-ddb5c849f2e7")
+		(property "Sheetname" "Audio"
+			(at 203.2 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 203.2 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Carrier_Board"
+				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 203.2 76.2)
 		(size 99.06 309.118)
 		(exclude_from_sim no)

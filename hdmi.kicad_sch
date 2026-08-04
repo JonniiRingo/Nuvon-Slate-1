@@ -5766,7 +5766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3289339c-88de-4b17-88d5-e5f1fe369cd4")
-		(property "Reference" "R143"
+		(property "Reference" "R19"
 			(at 198.374 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5860,7 +5860,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/1c6e1139-d819-4324-bacb-4e7c941be195"
-					(reference "R143")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9006,7 +9006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9da88cb-00c8-490b-b663-3168f4fb4f45")
-		(property "Reference" "Q85"
+		(property "Reference" "Q4"
 			(at 182.88 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9108,7 +9108,7 @@
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/1c6e1139-d819-4324-bacb-4e7c941be195"
-					(reference "Q85")
+					(reference "Q4")
 					(unit 1)
 				)
 			)

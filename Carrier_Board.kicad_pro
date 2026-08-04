@@ -822,7 +822,7 @@
         "uuid": "e768274e-12f3-4f83-96f6-abb7638e0bc1"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U78",
     "variants": []
   },
   "sheets": [
@@ -865,6 +865,10 @@
     [
       "c9d591b5-2734-4735-842a-ee158b52d7b9",
       "M.2 M Key"
+    ],
+    [
+      "82ad3407-57b9-41ac-a23a-ddb5c849f2e7",
+      "Audio"
     ]
   ],
   "text_variables": {},
