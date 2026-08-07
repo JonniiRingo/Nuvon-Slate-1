@@ -8931,7 +8931,7 @@
 	(footprint "A_HDJ_Library:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "147d27dc-25bf-47eb-8b2c-1a4f07e0158c")
-		(at 64.529999 135.59)
+		(at 118.5 132.55)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C31"
@@ -25453,7 +25453,7 @@
 	(footprint "A_HDJ_Library:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2ddb5667-fccd-49c4-a750-b194c46772b8")
-		(at 68.859999 136.09)
+		(at 63.93 132.25)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C26"
@@ -34092,7 +34092,7 @@
 	(footprint "A_HDJ_Library:Fuse_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "4507c0e5-b7e0-433b-8a32-ea9a811c3e45")
-		(at 379.325 11.15)
+		(at 120.7375 135.9)
 		(descr "Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F5"
@@ -62044,7 +62044,7 @@
 	(footprint "A_HDJ_Library:MOSFET_PDFN8_3.3x3.3"
 		(layer "F.Cu")
 		(uuid "9bde0672-e26a-4c4c-8eb0-d0153159235a")
-		(at 296.425 -8.825)
+		(at 198.3 103.56)
 		(descr " DFN 3x3  EP")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q7"
@@ -74405,7 +74405,7 @@
 	(footprint "A_HDJ_Library:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "bbd89e74-c7bb-4135-b3d9-147e09c9cb03")
-		(at 68.979999 132.34)
+		(at 117.775 136.05)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C28"
@@ -78977,7 +78977,7 @@
 	(footprint "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "c8c2c4a4-0f77-4c1f-8fc2-aefb468b4bff")
-		(at 364.715 21.54)
+		(at 106.0375 137.8)
 		(descr "U-DFN2510-10 package used by Diodes Incorporated (https://www.diodes.com/assets/Package-Files/U-DFN2510-10-Type-CJ.pdf)")
 		(tags "UDFN-10 U-DFN2510-10 Diodes")
 		(property "Reference" "U5"
@@ -79955,7 +79955,7 @@
 	(footprint "A_HDJ_Library:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cd76dbab-af85-4d63-a508-a5cbd524da5a")
-		(at 68.859999 138.06)
+		(at 63.93 134.22)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C27"
@@ -80271,7 +80271,7 @@
 	(footprint "A_HDJ_Library:ESSOP-10-1EP_3.9x5mm_P1.0mm_EP3.2x2.3"
 		(layer "F.Cu")
 		(uuid "ce78eb9b-fbc2-40e4-9c1d-d9726091700d")
-		(at 375.085 72.435227)
+		(at 214.75 83.15)
 		(property "Reference" "U14"
 			(at 3.71 1.78 270)
 			(unlocked yes)
@@ -83015,7 +83015,7 @@
 	(footprint "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "d844d5e8-25c5-4a37-b754-6020f2c33555")
-		(at 358.815 21.54)
+		(at 50.1 144.35)
 		(descr "U-DFN2510-10 package used by Diodes Incorporated (https://www.diodes.com/assets/Package-Files/U-DFN2510-10-Type-CJ.pdf)")
 		(tags "UDFN-10 U-DFN2510-10 Diodes")
 		(property "Reference" "U3"
@@ -100107,7 +100107,7 @@
 	(footprint "A_HDJ_Library:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f9d20052-a8a7-43e3-8aa2-c477e7ae567e")
-		(at 68.979999 134.31)
+		(at 117.775 138.02)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C29"
