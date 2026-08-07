@@ -3815,7 +3815,7 @@
 		)
 		(uuid "0f8fb952-8c83-4d78-af88-2e6565852c95")
 	)
-	(label "CON_USB3_SSRX_P"
+	(label "CON_USB3_SSTX_P"
 		(at 80.01 133.35 0)
 		(effects
 			(font
@@ -3915,7 +3915,7 @@
 		)
 		(uuid "5c863706-56b0-432f-9794-f1ed6e0e0e69")
 	)
-	(label "CON_USB3_SSRX_N"
+	(label "CON_USB3_SSTX_N"
 		(at 80.01 128.27 0)
 		(effects
 			(font
