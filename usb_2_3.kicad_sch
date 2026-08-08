@@ -2895,7 +2895,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "ESD protection for the USB 2.0 data lines"
+	(text_box "ESD protection for the USB 3.0 data lines"
 		(exclude_from_sim no)
 		(at 145.415 105.41 0)
 		(size 111.76 45.085)
@@ -3795,26 +3795,6 @@
 		)
 		(uuid "0a36b4e6-81bd-487e-a530-89defa1509c3")
 	)
-	(label "CON_USB4_SSTX_N"
-		(at 54.61 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0ed157e1-a28c-4449-9985-d63deca2efb1")
-	)
-	(label "CON_USB4_SSTX_P"
-		(at 54.61 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0f8fb952-8c83-4d78-af88-2e6565852c95")
-	)
 	(label "CON_USB3_SSTX_P"
 		(at 80.01 133.35 0)
 		(effects
@@ -3845,15 +3825,25 @@
 		)
 		(uuid "1b7aba56-f3d6-42b6-b4cf-345fb5f7f6b6")
 	)
-	(label "CON_USB2_D_P"
-		(at 170.18 129.54 180)
+	(label "CON_USB3_D_N"
+		(at 170.18 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1f329d9e-1e32-4e2a-a641-d2b10b0e5fdf")
+		(uuid "26fc372a-9dc7-4ae7-912b-ce751caeb5c1")
+	)
+	(label "CON_USB4_SSRX_N"
+		(at 54.61 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b7023b4-3b6b-4355-8cfa-cd83efb6c4c2")
 	)
 	(label "CON_USB4_SSTX_P"
 		(at 54.61 133.35 180)
@@ -3905,6 +3895,16 @@
 		)
 		(uuid "45a68b54-bca8-4c70-815f-19034c15b26f")
 	)
+	(label "CON_USB4_D_N"
+		(at 170.18 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ec4e930-e02a-482b-ba69-34dd3036271e")
+	)
 	(label "CON_USB3_D_N"
 		(at 58.42 34.29 0)
 		(effects
@@ -3915,6 +3915,16 @@
 		)
 		(uuid "5c863706-56b0-432f-9794-f1ed6e0e0e69")
 	)
+	(label "CON_USB4_SSRX_P"
+		(at 54.61 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "691f0360-f800-4284-a46c-341c9e1a8eb6")
+	)
 	(label "CON_USB3_SSTX_N"
 		(at 80.01 128.27 0)
 		(effects
@@ -3924,16 +3934,6 @@
 			(justify left bottom)
 		)
 		(uuid "726df39a-de3f-4d6a-b9bc-2dce19d1f385")
-	)
-	(label "CON_USB4_SSTX_N"
-		(at 80.01 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "778a398c-185e-488e-9d01-69b9c80c9d26")
 	)
 	(label "CON_USB3_SSRX_N"
 		(at 58.42 41.91 0)
@@ -3955,6 +3955,36 @@
 		)
 		(uuid "7c4581d4-790e-4c87-867e-544ff21116d7")
 	)
+	(label "CON_USB3_SSRX_P"
+		(at 80.01 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86abad9f-df0c-4af2-841c-5a02ce52093c")
+	)
+	(label "CON_USB3_D_P"
+		(at 170.18 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "881cf6db-d37e-429c-801b-c1514d02cce5")
+	)
+	(label "CON_USB3_SSRX_N"
+		(at 90.17 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e012ffe-4642-42a7-860f-c3cbbd5ec9b0")
+	)
 	(label "CON_USB4_SSTX_P"
 		(at 57.15 101.6 0)
 		(effects
@@ -3964,6 +3994,16 @@
 			(justify left bottom)
 		)
 		(uuid "9335af27-54ad-40c4-abda-2c54910e36c1")
+	)
+	(label "CON_USB4_D_P"
+		(at 170.18 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "933979b4-8186-4b48-91c3-afc1c0e21078")
 	)
 	(label "CON_USB1_D_N"
 		(at 185.42 50.8 0)
@@ -4015,36 +4055,6 @@
 		)
 		(uuid "bd7183b0-c26b-41d6-905b-46c5fec0a338")
 	)
-	(label "CON_USB1_D_P"
-		(at 170.18 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c4482b17-e1e5-4a6a-ab50-3202f6560008")
-	)
-	(label "CON_USB2_D_N"
-		(at 170.18 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cac53d5a-7f3f-4de1-a602-1719fdafe18a")
-	)
-	(label "CON_USB1_D_N"
-		(at 170.18 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "da4a1868-c7d7-46d0-83b8-a5daaa146ce2")
-	)
 	(label "CON_USB3_SSTX_N"
 		(at 58.42 49.53 0)
 		(effects
@@ -4054,16 +4064,6 @@
 			(justify left bottom)
 		)
 		(uuid "ddb76b8a-1a0b-42f8-81bd-2c781788f24b")
-	)
-	(label "CON_USB4_SSTX_P"
-		(at 80.01 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e829940b-c050-4b85-99aa-778ecfd3ac22")
 	)
 	(label "CON_USB2_D_N"
 		(at 185.42 55.88 0)
