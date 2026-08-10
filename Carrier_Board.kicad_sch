@@ -2536,7 +2536,7 @@
 				(justify left)
 			)
 		)
-		(pin "GbE_PCIe_RX+" input
+		(pin "GbE_PCIe_TX+" input
 			(at 325.12 99.06 180)
 			(uuid "034b097d-797a-451d-b127-87b54399f8d3")
 			(effects
@@ -2546,7 +2546,7 @@
 				(justify left)
 			)
 		)
-		(pin "GbE_PCIe_RX-" input
+		(pin "GbE_PCIe_TX-" output
 			(at 325.12 104.14 180)
 			(uuid "7d285ed8-b6be-47e4-b943-639655009418")
 			(effects
@@ -2556,7 +2556,7 @@
 				(justify left)
 			)
 		)
-		(pin "GbE_PCIe_TX+" input
+		(pin "GbE_PCIe_RX+" input
 			(at 325.12 109.22 180)
 			(uuid "dd2c5023-7d9d-404b-9bd2-5399c7830f34")
 			(effects
@@ -2566,7 +2566,7 @@
 				(justify left)
 			)
 		)
-		(pin "GbE_PCIe_TX-" output
+		(pin "GbE_PCIe_RX-" output
 			(at 325.12 114.3 180)
 			(uuid "e9c86dae-6d10-44da-ac07-fa3f4d940cd8")
 			(effects
