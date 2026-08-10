@@ -6764,10 +6764,6 @@
 		(uuid "07c1e20e-fafd-4e50-8986-c279882ba85a")
 	)
 	(no_connect
-		(at 332.74 293.37)
-		(uuid "08f24a9a-3196-4ad8-9fee-70870d850762")
-	)
-	(no_connect
 		(at 251.46 300.99)
 		(uuid "09d97ec9-3f6e-4a0f-842c-9e044d883949")
 	)
@@ -6780,20 +6776,12 @@
 		(uuid "0aac999f-9892-4f87-94c0-ac698976496e")
 	)
 	(no_connect
-		(at 332.74 274.32)
-		(uuid "1d1bee32-ed71-494d-946f-bc3de3589846")
-	)
-	(no_connect
 		(at 332.74 330.2)
 		(uuid "1e08e12b-e45e-496f-b97b-139163e01276")
 	)
 	(no_connect
 		(at 332.74 256.54)
 		(uuid "1e23ae88-b3b2-4e07-9552-524470204ac1")
-	)
-	(no_connect
-		(at 332.74 285.75)
-		(uuid "216eb6b4-5f5b-4faa-b02c-48b8ad6ce0db")
 	)
 	(no_connect
 		(at 332.74 313.69)
@@ -6824,10 +6812,6 @@
 		(uuid "3aff2acb-d669-4bfe-b912-b04088c60ec4")
 	)
 	(no_connect
-		(at 332.74 281.94)
-		(uuid "3c453c2c-9e09-4691-aacd-33dea0685fbe")
-	)
-	(no_connect
 		(at 251.46 325.12)
 		(uuid "3c65d28c-cd18-4573-a755-546fb8c8effa")
 	)
@@ -6848,20 +6832,8 @@
 		(uuid "4993f3f2-904f-4225-90cf-fc0bd2ec8c05")
 	)
 	(no_connect
-		(at 332.74 276.86)
-		(uuid "49ece46e-cdf4-4b9d-9a8e-0cfb7fa6f2b8")
-	)
-	(no_connect
-		(at 332.74 279.4)
-		(uuid "4e3dab00-fd85-4acf-952c-893b7b8837e5")
-	)
-	(no_connect
 		(at 332.74 166.37)
 		(uuid "537d2ab9-0975-4123-9cf1-e25234caa62e")
-	)
-	(no_connect
-		(at 332.74 288.29)
-		(uuid "544b2f3c-4c68-4a18-96ab-18501d35386a")
 	)
 	(no_connect
 		(at 251.46 210.82)
@@ -7008,10 +6980,6 @@
 		(uuid "b83be640-18ce-41f1-9926-dff095102654")
 	)
 	(no_connect
-		(at 332.74 295.91)
-		(uuid "b9ee65b3-2537-4f61-9ce9-19d2a930969e")
-	)
-	(no_connect
 		(at 332.74 134.62)
 		(uuid "ba0d13e7-50c7-4039-99b3-a43d0d29b364")
 	)
@@ -7022,10 +6990,6 @@
 	(no_connect
 		(at 332.74 248.92)
 		(uuid "c6007746-71f5-434d-aa93-e7277b5c7602")
-	)
-	(no_connect
-		(at 332.74 271.78)
-		(uuid "d0871d87-43af-45be-a9f3-1392ef7e0fff")
 	)
 	(no_connect
 		(at 332.74 306.07)
@@ -7042,10 +7006,6 @@
 	(no_connect
 		(at 251.46 307.34)
 		(uuid "f1fd1b67-3792-45f8-9b53-9ef64ef685cc")
-	)
-	(no_connect
-		(at 332.74 290.83)
-		(uuid "f66d75ba-8e95-42d2-81b8-2237c7c4a220")
 	)
 	(no_connect
 		(at 332.74 154.94)
