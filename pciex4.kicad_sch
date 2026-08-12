@@ -3096,27 +3096,7 @@
 		)
 		(uuid "ff82e5c7-a79f-4459-b9ed-318e6a7ed0f2")
 	)
-	(label "PCIe30_TX2_N"
-		(at 180.34 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0dd8a8ad-bdf3-44c3-91e4-436da2f10d18")
-	)
-	(label "PCIe30_TX1_P"
-		(at 180.34 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24a1f3f6-7dca-4d4e-a033-054c3b12bc80")
-	)
-	(label "PCIe30_TX0_P"
+	(label "PCIE30_TX0_P"
 		(at 180.34 158.75 0)
 		(effects
 			(font
@@ -3124,29 +3104,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "950afc49-b428-464f-9fce-1b502d59d016")
+		(uuid "3caf68f1-155e-4caf-81b2-c723b0130b78")
 	)
-	(label "PCIe30_TX0_N"
-		(at 180.34 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6fd9059-4f39-4149-a5aa-c83f84de4933")
-	)
-	(label "PCIe30_TX2_P"
-		(at 180.34 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc345ba4-e53d-4825-b17c-993099817dcd")
-	)
-	(label "PCIe30_TX1_N"
+	(label "PCIE30_TX1_N"
 		(at 180.34 166.37 0)
 		(effects
 			(font
@@ -3154,9 +3114,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e465f5c2-cc49-4560-86be-d1759b42c3d6")
+		(uuid "5128d6d5-e5a0-4abc-9542-0fa7e9a9a98d")
 	)
-	(label "PCIe30_TX3_P"
+	(label "PCIE30_TX3_N"
+		(at 180.34 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b79ddcf-6233-4c18-b08f-6dccb9b4ce34")
+	)
+	(label "PCIE30_TX1_P"
+		(at 180.34 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6802c5ed-415a-4be9-a51e-98620b043309")
+	)
+	(label "PCIE30_TX3_P"
 		(at 180.34 173.99 0)
 		(effects
 			(font
@@ -3164,17 +3144,37 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e7e57b73-03ca-42c6-8112-ef825d2ce062")
+		(uuid "aaac60f2-5fbb-41cf-af80-c33de6ec8a0e")
 	)
-	(label "PCIe30_TX3_N"
-		(at 180.3022 176.53 0)
+	(label "PCIE30_TX0_N"
+		(at 180.34 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f4a43c68-eff4-44a7-ba8a-92526b2f2018")
+		(uuid "e10c9318-fde4-4388-a5bd-daf13e1d3216")
+	)
+	(label "PCIE30_TX2_P"
+		(at 180.34 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efbb416e-4261-4147-9554-6a5ad82775ec")
+	)
+	(label "PCIE30_TX2_N"
+		(at 180.34 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7cf3a43-4e71-43ab-b29e-bfc777146c6f")
 	)
 	(hierarchical_label "REFCLK-"
 		(shape input)
@@ -3804,6 +3804,84 @@
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/d05d8b94-71f3-437a-a0af-11ed4e3069d0"
 					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3767c085-3c1e-4e47-b747-be929776a151")
+		(property "Reference" "#PWR0202"
+			(at 177.8 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ce7202f-3563-4c39-aada-75d9ebf390e9")
+		)
+		(instances
+			(project "Carrier_Board"
+				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/d05d8b94-71f3-437a-a0af-11ed4e3069d0"
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
