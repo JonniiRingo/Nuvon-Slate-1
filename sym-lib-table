@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "MCU_Module_LattePanda") (type "KiCad") (uri "${KIPRJMOD}/Libraries/MCU_Module_LattePanda.kicad_sym") (options "") (descr ""))
 	(lib (name "A_HDJ_Library") (type "KiCad") (uri "${KIPRJMOD}/Libraries/A_HDJ_Library.kicad_sym") (options "") (descr ""))
+	(lib (name "Audio") (type "KiCad") (uri "/Users/jonathansamuels/Electrical/KiCadd/Project libraries/Custom_Symbols/Custom_Audio") (options "") (descr ""))
 )
