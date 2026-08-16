@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "A_HDJ_Library") (type "KiCad") (uri "${KIPRJMOD}/Libraries/A_HDJ_Library.pretty") (options "") (descr ""))
 	(lib (name "Module_LattePanda") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Module_LattePanda.pretty") (options "") (descr ""))
+	(lib (name "Custom_Connectors") (type "KiCad") (uri "/Users/jonathansamuels/Electrical/KiCadd/Project libraries/Custom_Connectors.pretty") (options "") (descr ""))
 )

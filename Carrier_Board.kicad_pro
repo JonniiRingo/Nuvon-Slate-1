@@ -824,7 +824,7 @@
         "uuid": "e768274e-12f3-4f83-96f6-abb7638e0bc1"
       }
     ],
-    "used_designators": "#PWR202,U78",
+    "used_designators": "J79,#PWR202-204,U78",
     "variants": []
   },
   "sheets": [
