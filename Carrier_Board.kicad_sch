@@ -2596,7 +2596,7 @@
 	)
 	(sheet
 		(at 203.2 26.67)
-		(size 102.362 26.67)
+		(size 40.64 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4502,6 +4502,52 @@
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 261.62 25.4)
+		(size 40.64 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f5a419cd-f73d-4498-abf3-fd912891e404")
+		(property "Sheetname" "Wifi Bluetooth"
+			(at 261.62 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 261.62 52.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Carrier_Board"
+				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
+					(page "12")
 				)
 			)
 		)

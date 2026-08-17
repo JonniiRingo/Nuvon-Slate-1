@@ -1847,6 +1847,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 86.36) (xy 226.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4211d2b0-cac8-4065-b0da-9fda5cea4a84")
+	)
+	(wire
+		(pts
 			(xy 99.06 110.49) (xy 125.73 110.49)
 		)
 		(stroke
@@ -1894,16 +1904,6 @@
 			(type default)
 		)
 		(uuid "4bee2595-b9a4-45e6-8d55-863e8a87fcef")
-	)
-	(wire
-		(pts
-			(xy 226.06 86.36) (xy 226.06 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d672555-27cf-4b14-99dd-6ce3a9b15dac")
 	)
 	(wire
 		(pts
@@ -2077,16 +2077,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 86.36) (xy 251.46 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f1b9fe-fa46-41c3-a238-3dabeeccd239")
-	)
-	(wire
-		(pts
 			(xy 158.75 113.03) (xy 158.75 115.57)
 		)
 		(stroke
@@ -2104,6 +2094,16 @@
 			(type default)
 		)
 		(uuid "ccb406cc-5297-4905-aab3-f011e2dab192")
+	)
+	(wire
+		(pts
+			(xy 226.06 76.2) (xy 226.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced3d6ea-8286-420a-a087-a1aa8106382f")
 	)
 	(wire
 		(pts
@@ -2137,16 +2137,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 76.2) (xy 226.06 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0a5afeb-2a61-4647-a1f0-c7086126e166")
-	)
-	(wire
-		(pts
 			(xy 218.44 35.56) (xy 251.46 35.56)
 		)
 		(stroke
@@ -2164,6 +2154,16 @@
 			(type default)
 		)
 		(uuid "e5cba088-7932-495c-8823-bb0771750f30")
+	)
+	(wire
+		(pts
+			(xy 251.46 86.36) (xy 251.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fa4a46-8b9c-4edc-9f78-05277636e32e")
 	)
 	(wire
 		(pts
@@ -2256,7 +2256,7 @@
 		(uuid "29c635fe-7998-456f-967e-0d9e7ecb9d5a")
 	)
 	(label "GPP_D0"
-		(at 226.06 91.44 180)
+		(at 226.06 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2416,7 +2416,7 @@
 		(uuid "87126403-5afd-409c-8084-8f067bd305b9")
 	)
 	(label "GPP_D3"
-		(at 251.46 91.44 0)
+		(at 251.46 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,7 +2506,7 @@
 		(uuid "cf162586-7bd2-40c7-89cc-ab0f415872c1")
 	)
 	(label "GPP_D1"
-		(at 226.06 81.28 180)
+		(at 226.06 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)

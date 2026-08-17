@@ -6800,10 +6800,6 @@
 		(uuid "26425076-208d-4806-afd5-eff0032d3dc4")
 	)
 	(no_connect
-		(at 332.74 132.08)
-		(uuid "2b3ae4a2-9e12-4c43-9666-571328b4c8b9")
-	)
-	(no_connect
 		(at 251.46 289.56)
 		(uuid "3af97182-80fa-47c1-905f-20c5f35e0217")
 	)
@@ -6978,10 +6974,6 @@
 	(no_connect
 		(at 332.74 97.79)
 		(uuid "b83be640-18ce-41f1-9926-dff095102654")
-	)
-	(no_connect
-		(at 332.74 134.62)
-		(uuid "ba0d13e7-50c7-4039-99b3-a43d0d29b364")
 	)
 	(no_connect
 		(at 251.46 200.66)
@@ -7352,6 +7344,17 @@
 		)
 		(uuid "012397bc-d6b7-4266-9bde-7051747da1a8")
 	)
+	(hierarchical_label "USB_2_P6+"
+		(shape bidirectional)
+		(at 332.74 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07042c31-af9f-402c-b92f-f1c2dde73a11")
+	)
 	(hierarchical_label "HSIO_2_RX+"
 		(shape input)
 		(at 251.46 114.3 180)
@@ -7505,6 +7508,17 @@
 			(justify right)
 		)
 		(uuid "1aed9a2c-44f8-4a49-b248-02ba77f612e5")
+	)
+	(hierarchical_label "USB_2_P6-"
+		(shape bidirectional)
+		(at 332.74 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21ae3fd3-7772-4928-8d77-7c44cf75bfe9")
 	)
 	(hierarchical_label "HSIO_0_TX-"
 		(shape output)
@@ -8066,6 +8080,17 @@
 			(justify left)
 		)
 		(uuid "adeae665-633c-41af-8173-e7c99e288e13")
+	)
+	(hierarchical_label "I2S_MCLK"
+		(shape bidirectional)
+		(at 332.74 271.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4dac71f-abfc-47ba-b1ab-41b199de57b4")
 	)
 	(hierarchical_label "USB_2_P7-"
 		(shape bidirectional)
