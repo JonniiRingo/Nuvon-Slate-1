@@ -8081,17 +8081,6 @@
 		)
 		(uuid "adeae665-633c-41af-8173-e7c99e288e13")
 	)
-	(hierarchical_label "I2S_MCLK"
-		(shape bidirectional)
-		(at 332.74 271.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4dac71f-abfc-47ba-b1ab-41b199de57b4")
-	)
 	(hierarchical_label "USB_2_P7-"
 		(shape bidirectional)
 		(at 251.46 208.28 180)
