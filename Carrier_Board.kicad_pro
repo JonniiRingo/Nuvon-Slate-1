@@ -824,7 +824,7 @@
         "uuid": "e768274e-12f3-4f83-96f6-abb7638e0bc1"
       }
     ],
-    "used_designators": "J79,#PWR202-206,U78-79",
+    "used_designators": "J79,#PWR202-207,U78-79",
     "variants": []
   },
   "sheets": [
@@ -873,8 +873,8 @@
       "Audio"
     ],
     [
-      "232acd6f-2a0c-4726-8247-1bfe596bada8",
-      "Wifi Bluetooth"
+      "af13c017-6c0a-4250-8c5d-6d8ccdb9765c",
+      "Wifi BT"
     ]
   ],
   "text_variables": {},

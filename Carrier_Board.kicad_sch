@@ -2479,52 +2479,6 @@
 		)
 	)
 	(sheet
-		(at 254 25.4)
-		(size 38.862 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "232acd6f-2a0c-4726-8247-1bfe596bada8")
-		(property "Sheetname" "Wifi Bluetooth"
-			(at 254 24.6884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 254 53.9246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Carrier_Board"
-				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 325.12 81.915)
 		(size 38.1 45.72)
 		(exclude_from_sim no)
@@ -3764,6 +3718,52 @@
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 252.73 26.67)
+		(size 48.26 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "af13c017-6c0a-4250-8c5d-6d8ccdb9765c")
+		(property "Sheetname" "Wifi BT"
+			(at 252.73 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Wifi_BlueTooth.kicad_sch"
+			(at 252.73 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Carrier_Board"
+				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1"
+					(page "12")
 				)
 			)
 		)
