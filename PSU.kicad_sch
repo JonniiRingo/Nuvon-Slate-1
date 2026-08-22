@@ -960,8 +960,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J18"
+				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -971,7 +971,7 @@
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
+				(at 0 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -980,7 +980,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "A_HDJ_Library:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1003,6 +1003,38 @@
 				)
 			)
 			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S3.3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S4.1" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1653,7 +1685,7 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5826,6 +5858,12 @@
 		(uuid "57729d1d-269b-418d-acf8-614a761a074a")
 	)
 	(junction
+		(at 55.88 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "592cb03d-b6cc-43b5-9c76-e88bde4fab99")
+	)
+	(junction
 		(at 200.66 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6016,12 +6054,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5f5ef61-76a3-4a67-a472-70a488804292")
-	)
-	(junction
-		(at 55.88 293.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a667d771-73d0-4d49-a698-95fd6324bcbb")
 	)
 	(junction
 		(at 157.48 193.04)
@@ -6646,16 +6678,6 @@
 			(type default)
 		)
 		(uuid "203f5cfd-25a5-4165-ab80-f2ba7d87a41c")
-	)
-	(wire
-		(pts
-			(xy 55.88 293.37) (xy 55.88 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ecf26a-6f98-45c2-8d25-dc1d01215519")
 	)
 	(wire
 		(pts
@@ -7629,6 +7651,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 290.83) (xy 55.88 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d508b6-8756-4ed2-b43e-5181cdeeb5ce")
+	)
+	(wire
+		(pts
 			(xy 284.48 170.18) (xy 284.48 172.72)
 		)
 		(stroke
@@ -7799,16 +7831,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 290.83) (xy 48.26 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "835071f5-6e0b-4e8d-a613-5a62b2734566")
-	)
-	(wire
-		(pts
 			(xy 259.08 81.28) (xy 259.08 83.82)
 		)
 		(stroke
@@ -7876,16 +7898,6 @@
 			(type default)
 		)
 		(uuid "8921d33b-1946-4f49-b787-8bad13efe9f8")
-	)
-	(wire
-		(pts
-			(xy 48.26 293.37) (xy 55.88 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a3ca140-8e10-42b0-b556-6a1b87003390")
 	)
 	(wire
 		(pts
@@ -7976,16 +7988,6 @@
 			(type default)
 		)
 		(uuid "915109d2-b3d7-4dc4-b423-5e859cd31499")
-	)
-	(wire
-		(pts
-			(xy 55.88 290.83) (xy 55.88 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91ab82a0-083d-4f04-a6dd-ee7273de645b")
 	)
 	(wire
 		(pts
@@ -9066,6 +9068,16 @@
 			(type default)
 		)
 		(uuid "f0546963-12ed-4972-ba80-6bfb71de44ca")
+	)
+	(wire
+		(pts
+			(xy 55.88 290.83) (xy 55.88 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2dab251-9478-4b99-a775-e432fa05c7d4")
 	)
 	(wire
 		(pts
@@ -15915,7 +15927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+		(property "Footprint" "A_HDJ_Library:TSOT-23-6"
 			(at 346.075 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -17981,7 +17993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a373b2e-b833-4dcb-879a-1fc9ecf754a5")
-		(property "Reference" "TP81"
+		(property "Reference" "TP10"
 			(at 205.74 210.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18058,13 +18070,23 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 200.66 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "482f609e-a1de-4ba8-a5b9-8282158fa4ca")
 		)
 		(instances
 			(project "Carrier_Board"
 				(path "/e768274e-12f3-4f83-96f6-abb7638e0bc1/a1e78f2f-f14b-4628-9612-5b4e596f5f9f"
-					(reference "TP81")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -18773,7 +18795,7 @@
 		(pin "B6"
 			(uuid "a10668d1-5b8a-4c44-a170-bbddb0dfaf5c")
 		)
-		(pin "SH"
+		(pin "S1"
 			(uuid "ad6d3894-6f25-410c-985f-0a34aaebf9e0")
 		)
 		(pin "B5"
@@ -22145,7 +22167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+		(property "Footprint" "A_HDJ_Library:TSOT-23-6"
 			(at 346.075 201.93 0)
 			(hide yes)
 			(show_name no)
